@@ -5,9 +5,9 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import java.security.Security;
 
 /**
- * Configuration and setup for PQC benchmarking
+ * PqcConfiguration and setup for PQC benchmarking
  */
-public class Configuration {
+public class PqcConfiguration {
 
     static {
         // Register BouncyCastle as security provider

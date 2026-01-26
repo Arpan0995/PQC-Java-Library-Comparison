@@ -1,4 +1,4 @@
-package com.ecom.pqcjavalibrarycomparison;
+package com.pqc.pqcjavalibrarycomparison;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
