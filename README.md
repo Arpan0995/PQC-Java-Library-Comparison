@@ -1,7 +1,7 @@
 PQC Java Library Comparison
 ==========================
 
-What this project does
+Overview
 ----------------------
 This repository contains a small JMH benchmark suite that measures the performance of post-quantum cryptography (PQC) primitives implemented via Bouncy Castle in Java, and compares them to classical algorithms. The benchmarks exercise ML-KEM (key-encapsulation), ML-DSA (signatures) variants and classical baselines (RSA, ECDSA).
 
@@ -9,7 +9,7 @@ Purpose of the experiment
 -------------------------
 The goal is to evaluate the runtime cost (average time) of key generation, encapsulation/decapsulation, signing, and verification for multiple PQC algorithm variants and compare them with classical algorithms. The results help understand performance trade-offs when considering PQC algorithms for real-world use and server as a migration guide for organizations.
 
-What we plan to analyze
+Data Points to Analyze
 -----------------------
 - Key generation time for ML-KEM variants (512, 768, 1024) and classical key generation (RSA-2048, ECDSA P-256).
 - Encapsulation and decapsulation latency for ML-KEM variants.
