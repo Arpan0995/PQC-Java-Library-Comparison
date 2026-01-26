@@ -7,7 +7,7 @@ This repository contains a small JMH benchmark suite that measures the performan
 
 Purpose of the experiment
 -------------------------
-The goal is to evaluate the runtime cost (average time) of key generation, encapsulation/decapsulation, signing, and verification for multiple PQC algorithm variants and compare them with classical algorithms. The results help understand performance trade-offs when considering PQC algorithms for real-world use.
+The goal is to evaluate the runtime cost (average time) of key generation, encapsulation/decapsulation, signing, and verification for multiple PQC algorithm variants and compare them with classical algorithms. The results help understand performance trade-offs when considering PQC algorithms for real-world use and server as a migration guide for organizations.
 
 What we plan to analyze
 -----------------------
@@ -16,7 +16,7 @@ What we plan to analyze
 - Signing and verification latency for ML-DSA variants and classical signature algorithms (RSA, ECDSA).
 - Compare average latencies (in milliseconds), variability, and how they scale relative to classical algorithms.
 
-How the experiment is performed (brief)
+Methodlogy
 --------------------------------------
 - The benchmarks are implemented using JMH in `src/main/java/com/pqc/pqcjavalibrarycomparison/PqcExperiments.java`.
 - Bouncy Castle is registered as a security provider in `PqcConfiguration` and used for PQC algorithms.
@@ -56,7 +56,7 @@ Alternative (run directly with Maven exec plugin if you have it installed):
 mvn -q -DskipTests exec:java -Dexec.mainClass="com.pqc.pqcjavalibrarycomparison.PqcExperiments"
 ```
 
-What to expect as output
+Exepcted output
 ------------------------
 - Console output: startup info from `PqcConfiguration.initialize()` (JVM, OS, processors, memory) and JMH progress and summaries.
 - Results file: `results/benchmark_result.json` will be produced. It contains an array of benchmark results in JMH JSON format. Each entry includes fields such as:
