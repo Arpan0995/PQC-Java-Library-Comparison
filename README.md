@@ -1,105 +1,126 @@
-PQC Java Library Comparison
-==========================
+# PQC Java Library Comparison
 
-Overview
-----------------------
-This repository contains a small JMH benchmark suite that measures the performance of post-quantum cryptography (PQC) primitives implemented via Bouncy Castle in Java, and compares them to classical algorithms. The benchmarks exercise ML-KEM (key-encapsulation), ML-DSA (signatures) variants and classical baselines (RSA, ECDSA).
+A JMH microbenchmark suite that compares **two Java implementations of the NIST
+post-quantum standards** — Bouncy Castle and the JDK's own built-in providers —
+for ML-KEM (FIPS 203, key encapsulation) and ML-DSA (FIPS 204, digital
+signatures), alongside classical baselines (RSA-2048, ECDSA P-256, X25519).
 
-Purpose of the experiment
--------------------------
-The goal is to evaluate the runtime cost (average time) of key generation, encapsulation/decapsulation, signing, and verification for multiple PQC algorithm variants and compare them with classical algorithms. The results help understand performance trade-offs when considering PQC algorithms for real-world use and server as a migration guide for organizations.
+Both libraries are exercised through the **same JCA APIs**
+(`javax.crypto.KEM`, `java.security.Signature`), so the numbers reflect
+implementation differences rather than API differences.
 
-Data Points to Analyze
------------------------
-- Key generation time for ML-KEM variants (512, 768, 1024) and classical key generation (RSA-2048, ECDSA P-256).
-- Encapsulation and decapsulation latency for ML-KEM variants.
-- Signing and verification latency for ML-DSA variants and classical signature algorithms (RSA, ECDSA).
-- Compare average latencies (in milliseconds), variability, and how they scale relative to classical algorithms.
+## What is measured
 
-Methodology
---------------------------------------
-- The benchmarks are implemented using JMH in `src/main/java/com/pqc/pqcjavalibrarycomparison/PqcExperiments.java`.
-- Bouncy Castle is registered as a security provider in `PqcConfiguration` and used for PQC algorithms.
-- JMH settings (also in `PqcConfiguration`):
-  - Warmup iterations: 5
-  - Measurement iterations: 10
-  - Forks: 3
-  - Time unit: milliseconds (AverageTime mode)
-- Each trial initializes key-pair generators and pre-generates keys used by the benchmarks. Certain benchmarks (e.g., decapsulation) encapsulate and then decapsulate within the measured method to measure the combined operation.
-- The main class `PqcExperiments` runs a JMH `Runner` that writes results to `results/benchmark_result.json` in JSON format.
+Each cryptographic operation is timed **in isolation** (this is a deliberate fix
+of an earlier version that timed sign+verify and encaps+decaps together):
 
-Prerequisites
--------------
-- Java 17 (or compatible JDK)
-- Apache Maven (3.6+ recommended)
-- Enough memory and CPU available (benchmarks fork JVMs and are CPU-bound)
+| Family | Variants | Operations | Providers |
+|---|---|---|---|
+| ML-KEM | 512, 768, 1024 | KeyGen, Encapsulate, Decapsulate | Bouncy Castle, JDK (SunJCE) |
+| ML-DSA | 44, 65, 87 | KeyGen, Sign, Verify | Bouncy Castle, JDK (SUN) |
+| RSA | 2048 | KeyGen, Sign, Verify | JDK (SunRsaSign) |
+| ECDSA | P-256 | KeyGen, Sign, Verify | JDK (SunEC) |
+| X25519 | — | KeyGen, Key agreement | JDK (SunEC) |
 
-Quick run steps
----------------
-1. Build the project (compile and package):
+Signatures/ciphertexts used by the `Verify`/`Decapsulate` benchmarks are
+pre-computed in `@Setup`, so only the target operation is on the measured path.
 
-```bash
-mvn clean package -DskipTests
+## Layout
+
+```
+src/main/java/com/pqc/pqcjavalibrarycomparison/
+  PqcConfiguration.java   registers Bouncy Castle; shared JMH settings
+  KemBenchmark.java        ML-KEM (parameterised by provider × level)
+  DsaBenchmark.java        ML-DSA (parameterised by provider × level)
+  ClassicalBenchmark.java  RSA / ECDSA / X25519 baselines
+  PqcExperiments.java      runner main() → results/benchmark_result.json
+src/test/java/.../PqcCorrectnessTest.java   both providers round-trip + reject tampering
+results/
+  analyze_results.py   JSON → summary.csv + RESULTS.md   (standard library only)
+  generate_charts.py   JSON → figures/*.png              (needs matplotlib)
 ```
 
-2. Run the benchmark runner (uses the main method in `PqcExperiments`):
+## Requirements
+
+- **Build:** JDK 21+ (the `javax.crypto.KEM` API, JEP 452, is required to compile).
+- **Run:** **JDK 24+** — the JDK's native ML-KEM/ML-DSA providers (JEP 496 / 497)
+  only exist from JDK 24 onward. The published results were produced on **JDK 26**.
+- Maven 3.8+.
+
+> If you run on a JDK older than 24, the `provider=JDK` benchmarks cannot find the
+> native algorithms and will fail; only the Bouncy Castle arm would work.
+
+## JMH configuration
+
+`AverageTime` mode, output in **microseconds/op**; 5 warmup + 10 measurement
+iterations (1 s each) across **3 forks** (see `PqcConfiguration`). The pom
+declares the JMH annotation processor explicitly under
+`maven-compiler-plugin/annotationProcessorPaths` — this is required because since
+JDK 23 `javac` no longer runs processors found only on the classpath, which would
+otherwise leave the JMH `BenchmarkList` ungenerated.
+
+## Running
 
 ```bash
-# Run the JMH Runner from the packaged jar
-java -cp target/PQC-Java-Library-Comparison-0.0.1-SNAPSHOT.jar \
-  com.pqc.pqcjavalibrarycomparison.PqcExperiments
+export JAVA_HOME=/path/to/jdk-24-or-newer
+
+# 1. compile (also generates the JMH benchmark list)
+mvn -DskipTests clean compile
+
+# 2. build the runtime classpath
+mvn org.apache.maven.plugins:maven-dependency-plugin:3.6.1:build-classpath \
+    -Dmdep.outputFile=cp.txt
+
+# 3. run the full suite (~35 min; writes results/benchmark_result.json)
+java -cp "target/classes:$(cat cp.txt)" \
+    com.pqc.pqcjavalibrarycomparison.PqcExperiments
+
+# 4. tables + charts
+python3 results/analyze_results.py          # summary.csv, RESULTS.md (no deps)
+python3 results/generate_charts.py           # figures/*.png (pip install matplotlib)
 ```
 
-Alternative (run directly with Maven exec plugin if you have it installed):
+Run the correctness tests with `mvn test`.
+
+To run a subset directly via JMH, e.g. only ML-KEM-768 for both providers:
 
 ```bash
-mvn -q -DskipTests exec:java -Dexec.mainClass="com.pqc.pqcjavalibrarycomparison.PqcExperiments"
+java -cp "target/classes:$(cat cp.txt)" org.openjdk.jmh.Main \
+    ".*KemBenchmark.*" -p provider=BC,JDK -p level=768
 ```
 
-Exepcted output
-------------------------
-- Console output: startup info from `PqcConfiguration.initialize()` (JVM, OS, processors, memory) and JMH progress and summaries.
-- Results file: `results/benchmark_result.json` will be produced. It contains an array of benchmark results in JMH JSON format. Each entry includes fields such as:
-  - `benchmark`: the benchmark name
-  - `primaryMetric.score`: the reported average time
-  - `primaryMetric.scoreUnit`: typically `ms` (milliseconds)
-  - `primaryMetric.scoreError`: estimated error
-  - `params`: additional parameters or variant names
+## Results (JDK 26, Apple Silicon; µs/op, lower is better)
 
-Inspect this JSON (or import into a spreadsheet / analysis script) to compare algorithms.
+Full data in [`results/summary.csv`](results/summary.csv); digest in
+[`results/RESULTS.md`](results/RESULTS.md); charts in `results/figures/`.
 
-Notes & tips
-------------
-- If you want to limit which benchmarks run, modify the `OptionsBuilder` in `PqcExperiments.main` (it currently uses `.include(".*")`) or pass your own JMH arguments by changing the runner creation.
-- To change benchmark settings (warmup/measurement/forks), edit constants in `PqcConfiguration`.
-- Benchmarks may take a few minutes because they run multiple iterations and forks; choose machine resources accordingly.
-- The verify methods in this suite perform a sign then verify inside the same benchmark method (i.e., they measure the combined operation as implemented).
+**Bouncy Castle vs. JDK native** — the JDK implementation is faster across the
+board (speedup = BC / JDK):
 
-Impact & Benefits
-----------------------
-- **Eliminates guesswork in PQC migration**: Organizations currently make billion-dollar infrastructure decisions without Java-specific PQC performance data; this benchmark provides the first authoritative, reproducible numbers that transform PQC adoption from risk-driven guessing to data-driven engineering.
+| Primitive | Op | BC | JDK | JDK speedup |
+|---|---|--:|--:|--:|
+| ML-KEM-768 | KeyGen | 31.9 | 16.5 | 1.93× |
+| ML-KEM-768 | Encaps | 33.5 | 13.5 | 2.48× |
+| ML-KEM-768 | Decaps | 41.5 | 17.5 | 2.38× |
+| ML-DSA-65 | Sign | 471.2 | 168.6 | 2.79× |
+| ML-DSA-65 | Verify | 96.9 | 49.9 | 1.94× |
+| ML-DSA-87 | Sign | 958.8 | 208.0 | 4.61× |
 
-- **Unlocks financial savings at scale**: Fortune 500 Java shops can use these benchmarks to right-size infrastructure for PQC workloads; if PQC is 3× faster than RSA for key exchange, companies avoid purchasing 3× redundant capacity—saving millions in unnecessary server, cloud, and operational costs annually.
+**PQC vs. classical** (JDK provider):
 
-- **De-risks regulatory compliance**: NIST and NSA require PQC migration by 2030; organizations now have a Java-specific playbook showing feasibility and performance impact before committing to costly, organization-wide cryptographic transitions that could fail if poorly planned.
+- **Key establishment: ML-KEM-768 = 47.5 µs vs X25519 = 209.9 µs → 4.4× faster.**
+  Post-quantum key exchange is *cheaper* than the classical primitive here.
+- Signing: ML-DSA-65 is 5.4× faster than RSA-2048, but ~1.5× slower than ECDSA P-256.
+- Verifying: ML-DSA-65 is 7× faster than ECDSA P-256 and comparable to RSA-2048.
+- RSA-2048 key generation (~91 ms) dwarfs everything else.
 
-- **Accelerates industry-wide adoption**: By publishing reproducible methodology and benchmarks, the Java community gains a shared reference point; library developers can optimize against these numbers, frameworks can bake in PQC defaults, and competing implementations can be evaluated fairly—compressing what might be a 5-year adoption cycle into 18 months.
+> Numbers are machine-specific (they were collected on an 8-core Apple Silicon
+> laptop). Reproduce on your target hardware before drawing capacity conclusions;
+> the *relative* ordering is the portable takeaway.
 
-- **Prevents catastrophic deployment failures**: Teams that migrate to PQC without performance baselines risk discovering in production that signature verification takes 10× longer, causing TLS handshake timeouts and service degradation; these benchmarks expose such risks in development and allow teams to architect solutions (batching, caching, hardware acceleration) before launch.
+## Companion project
 
-- **Establishes Java as PQC-ready in enterprise**: C/C++ ecosystems have OpenSSL benchmarks; Java does not. This work signals to CISOs, architects, and CTOs that post-quantum Java is practical today, opening market opportunities for Java frameworks and encouraging investment in Java cryptographic libraries at a critical industry inflection point.
-
-- **Creates a replicable scientific foundation**: By open-sourcing JMH methodology and BouncyCastle benchmarks, researchers and practitioners gain a template for measuring cryptographic performance in production JVM environments—advancing the state of knowledge for hybrid PQC/classical systems, multi-threaded scenarios, and long-running server workloads that academia typically overlooks.
-
-- **Strengthens U.S. national cybersecurity posture**: The majority of Fortune 500 financial, healthcare, and government IT systems run on Java; delayed or failed PQC migration in this critical infrastructure leaves the nation vulnerable to future quantum-enabled adversaries. By providing the technical roadmap and confidence that PQC works reliably in Java at scale, this work directly enables faster, safer quantum-safe migration of the systems protecting sensitive U.S. citizen data, financial markets, and national defense—advancing the NSA and NIST mandate to ensure America's critical infrastructure is cryptographically resilient before quantum computing becomes a practical threat.
-
-Next steps (optional)
----------------------
-- Parse `results/benchmark_result.json` and produce CSV reports or plots for easier comparison.
-- Add JMH profilers or record GC/JVM metrics for deeper system-level analysis.
-- Add more PQC algorithms or different parameter sets.
-
-Contact
--------
-For questions about this experiment, inspect the source under `src/main/java/com/pqc/pqcjavalibrarycomparison/` or open an issue in the project tracker.
-
+This repository measures the **primitive** cost of PQC in Java. Its companion,
+[`pqc-hybrid-vs-classical`](https://github.com/Arpan0995/pqc-hybrid-vs-classical),
+measures the **protocol-level** cost (TLS 1.3 handshakes with hybrid and PQC key
+exchange). Together they trace PQC's cost from primitives up to TLS.

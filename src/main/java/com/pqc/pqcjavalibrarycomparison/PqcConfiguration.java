@@ -3,38 +3,48 @@ package com.pqc.pqcjavalibrarycomparison;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import java.security.Security;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * PqcConfiguration and setup for PQC benchmarking
+ * Provider registration and shared benchmark configuration.
+ *
+ * <p>Bouncy Castle is registered as an additional JCA provider (it is appended,
+ * so the JDK's built-in providers keep their default precedence). Each benchmark
+ * selects its provider explicitly by name ("BC" vs. "SunJCE"/"SUN"), so the two
+ * libraries are compared on equal footing through the same JCA APIs.
  */
 public class PqcConfiguration {
 
     static {
-        // Register BouncyCastle as security provider
-        Security.addProvider(new BouncyCastleProvider());
+        // Register BouncyCastle as an additional security provider.
+        if (Security.getProvider(BouncyCastleProvider.PROVIDER_NAME) == null) {
+            Security.addProvider(new BouncyCastleProvider());
+        }
     }
 
-    // Algorithm identifiers
-    public static final String[] ML_KEM_VARIANTS = {"ML-KEM-512", "ML-KEM-768", "ML-KEM-1024"};
-    public static final String[] ML_DSA_VARIANTS = {"ML-DSA-44", "ML-DSA-65", "ML-DSA-87"};
-    public static final String[] CLASSICAL_VARIANTS = {"RSA/2048", "RSA/4096", "ECDSA/P-256", "X25519"};
-
-    // Benchmark settings
-    public static final int WARMUP_ITERATIONS = 5;        // 5 warmup runs
-    public static final int MEASUREMENT_ITERATIONS = 10;  // 10 measurement runs
+    // Benchmark settings (shared by every benchmark class).
+    public static final int WARMUP_ITERATIONS = 5;        // 5 warmup iterations
+    public static final int MEASUREMENT_ITERATIONS = 10;  // 10 measurement iterations
     public static final int FORK_COUNT = 3;               // 3 independent JVM forks
-    public static final long TIME_PER_ITERATION = 1000;   // 1 second per iteration (ms)
+
+    /** Prints the environment banner exactly once per JVM (per fork). */
+    private static final AtomicBoolean PRINTED = new AtomicBoolean(false);
 
     /**
-     * Initialize the benchmark environment
+     * Ensures the provider is registered and prints an environment banner the
+     * first time it is called within a JVM. Safe to call from every {@code @Setup}.
      */
     public static void initialize() {
-        System.out.println("=== PQC Benchmark Suite v1.0 ===");
-        System.out.println("Java Version: " + System.getProperty("java.version"));
-        System.out.println("JVM: " + System.getProperty("java.vm.name"));
-        System.out.println("OS: " + System.getProperty("os.name") + " " + System.getProperty("os.version"));
-        System.out.println("Processors: " + Runtime.getRuntime().availableProcessors());
-        System.out.println("Max Memory: " + (Runtime.getRuntime().maxMemory() / 1024 / 1024) + " MB");
-        System.out.println("");
+        if (PRINTED.compareAndSet(false, true)) {
+            System.out.println("=== PQC Benchmark Suite ===");
+            System.out.println("Java Version: " + System.getProperty("java.version"));
+            System.out.println("JVM: " + System.getProperty("java.vm.name")
+                    + " (" + System.getProperty("java.vm.version") + ")");
+            System.out.println("OS: " + System.getProperty("os.name") + " "
+                    + System.getProperty("os.version") + " (" + System.getProperty("os.arch") + ")");
+            System.out.println("Processors: " + Runtime.getRuntime().availableProcessors());
+            System.out.println("Max Memory: " + (Runtime.getRuntime().maxMemory() / 1024 / 1024) + " MB");
+            System.out.println();
+        }
     }
 }

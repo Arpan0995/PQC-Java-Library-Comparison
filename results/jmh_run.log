@@ -1,0 +1,4597 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.ecdsaP256_keyGen
+
+# Run progress: 0.00% complete, ETA 00:33:00
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 92.434 us/op
+# Warmup Iteration   2: 87.025 us/op
+# Warmup Iteration   3: 86.903 us/op
+# Warmup Iteration   4: 86.742 us/op
+# Warmup Iteration   5: 86.784 us/op
+Iteration   1: 86.492 us/op
+Iteration   2: 86.734 us/op
+Iteration   3: 86.960 us/op
+Iteration   4: 87.201 us/op
+Iteration   5: 90.998 us/op
+Iteration   6: 87.341 us/op
+Iteration   7: 87.502 us/op
+Iteration   8: 87.743 us/op
+Iteration   9: 86.822 us/op
+Iteration  10: 86.782 us/op
+
+# Run progress: 0.76% complete, ETA 00:33:39
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 94.780 us/op
+# Warmup Iteration   2: 88.165 us/op
+# Warmup Iteration   3: 87.859 us/op
+# Warmup Iteration   4: 87.452 us/op
+# Warmup Iteration   5: 87.482 us/op
+Iteration   1: 87.497 us/op
+Iteration   2: 89.321 us/op
+Iteration   3: 88.567 us/op
+Iteration   4: 87.206 us/op
+Iteration   5: 87.260 us/op
+Iteration   6: 86.996 us/op
+Iteration   7: 87.264 us/op
+Iteration   8: 87.144 us/op
+Iteration   9: 87.202 us/op
+Iteration  10: 87.103 us/op
+
+# Run progress: 1.52% complete, ETA 00:33:24
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 92.962 us/op
+# Warmup Iteration   2: 87.772 us/op
+# Warmup Iteration   3: 87.341 us/op
+# Warmup Iteration   4: 87.389 us/op
+# Warmup Iteration   5: 87.316 us/op
+Iteration   1: 87.474 us/op
+Iteration   2: 87.286 us/op
+Iteration   3: 87.154 us/op
+Iteration   4: 87.233 us/op
+Iteration   5: 87.507 us/op
+Iteration   6: 91.186 us/op
+Iteration   7: 87.625 us/op
+Iteration   8: 87.793 us/op
+Iteration   9: 92.245 us/op
+Iteration  10: 88.034 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.ecdsaP256_keyGen":
+  87.789 ±(99.9%) 0.918 us/op [Average]
+  (min, avg, max) = (86.492, 87.789, 92.245), stdev = 1.374
+  CI (99.9%): [86.871, 88.707] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.ecdsaP256_sign
+
+# Run progress: 2.27% complete, ETA 00:33:11
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 122.341 us/op
+# Warmup Iteration   2: 112.597 us/op
+# Warmup Iteration   3: 111.522 us/op
+# Warmup Iteration   4: 111.092 us/op
+# Warmup Iteration   5: 111.111 us/op
+Iteration   1: 111.192 us/op
+Iteration   2: 112.088 us/op
+Iteration   3: 111.270 us/op
+Iteration   4: 110.898 us/op
+Iteration   5: 110.767 us/op
+Iteration   6: 110.966 us/op
+Iteration   7: 111.362 us/op
+Iteration   8: 111.162 us/op
+Iteration   9: 111.130 us/op
+Iteration  10: 110.951 us/op
+
+# Run progress: 3.03% complete, ETA 00:32:55
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 119.910 us/op
+# Warmup Iteration   2: 111.930 us/op
+# Warmup Iteration   3: 111.105 us/op
+# Warmup Iteration   4: 110.644 us/op
+# Warmup Iteration   5: 111.094 us/op
+Iteration   1: 111.063 us/op
+Iteration   2: 110.970 us/op
+Iteration   3: 110.912 us/op
+Iteration   4: 111.090 us/op
+Iteration   5: 111.145 us/op
+Iteration   6: 111.008 us/op
+Iteration   7: 111.048 us/op
+Iteration   8: 110.793 us/op
+Iteration   9: 110.770 us/op
+Iteration  10: 110.913 us/op
+
+# Run progress: 3.79% complete, ETA 00:32:42
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 122.169 us/op
+# Warmup Iteration   2: 111.644 us/op
+# Warmup Iteration   3: 111.835 us/op
+# Warmup Iteration   4: 111.474 us/op
+# Warmup Iteration   5: 111.480 us/op
+Iteration   1: 115.703 us/op
+Iteration   2: 110.656 us/op
+Iteration   3: 110.888 us/op
+Iteration   4: 111.146 us/op
+Iteration   5: 111.414 us/op
+Iteration   6: 111.452 us/op
+Iteration   7: 111.419 us/op
+Iteration   8: 111.414 us/op
+Iteration   9: 110.983 us/op
+Iteration  10: 110.974 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.ecdsaP256_sign":
+  111.252 ±(99.9%) 0.592 us/op [Average]
+  (min, avg, max) = (110.656, 111.252, 115.703), stdev = 0.886
+  CI (99.9%): [110.659, 111.844] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.ecdsaP256_verify
+
+# Run progress: 4.55% complete, ETA 00:32:26
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 372.023 us/op
+# Warmup Iteration   2: 350.046 us/op
+# Warmup Iteration   3: 368.750 us/op
+# Warmup Iteration   4: 351.796 us/op
+# Warmup Iteration   5: 352.162 us/op
+Iteration   1: 351.601 us/op
+Iteration   2: 367.037 us/op
+Iteration   3: 348.305 us/op
+Iteration   4: 347.641 us/op
+Iteration   5: 348.118 us/op
+Iteration   6: 347.843 us/op
+Iteration   7: 348.571 us/op
+Iteration   8: 348.114 us/op
+Iteration   9: 348.326 us/op
+Iteration  10: 350.725 us/op
+
+# Run progress: 5.30% complete, ETA 00:32:10
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 371.577 us/op
+# Warmup Iteration   2: 350.188 us/op
+# Warmup Iteration   3: 349.688 us/op
+# Warmup Iteration   4: 348.647 us/op
+# Warmup Iteration   5: 351.445 us/op
+Iteration   1: 349.078 us/op
+Iteration   2: 348.625 us/op
+Iteration   3: 347.610 us/op
+Iteration   4: 348.620 us/op
+Iteration   5: 348.446 us/op
+Iteration   6: 348.495 us/op
+Iteration   7: 348.401 us/op
+Iteration   8: 348.391 us/op
+Iteration   9: 348.086 us/op
+Iteration  10: 348.446 us/op
+
+# Run progress: 6.06% complete, ETA 00:31:55
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 372.866 us/op
+# Warmup Iteration   2: 349.453 us/op
+# Warmup Iteration   3: 349.877 us/op
+# Warmup Iteration   4: 349.206 us/op
+# Warmup Iteration   5: 348.576 us/op
+Iteration   1: 347.902 us/op
+Iteration   2: 348.094 us/op
+Iteration   3: 348.587 us/op
+Iteration   4: 348.754 us/op
+Iteration   5: 348.727 us/op
+Iteration   6: 348.412 us/op
+Iteration   7: 348.445 us/op
+Iteration   8: 348.086 us/op
+Iteration   9: 348.743 us/op
+Iteration  10: 350.616 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.ecdsaP256_verify":
+  349.228 ±(99.9%) 2.323 us/op [Average]
+  (min, avg, max) = (347.610, 349.228, 367.037), stdev = 3.477
+  CI (99.9%): [346.905, 351.551] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.rsa2048_keyGen
+
+# Run progress: 6.82% complete, ETA 00:31:39
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 91839.004 us/op
+# Warmup Iteration   2: 97802.830 us/op
+# Warmup Iteration   3: 73894.969 us/op
+# Warmup Iteration   4: 93654.510 us/op
+# Warmup Iteration   5: 73050.095 us/op
+Iteration   1: 87732.629 us/op
+Iteration   2: 94271.477 us/op
+Iteration   3: 91348.444 us/op
+Iteration   4: 113559.375 us/op
+Iteration   5: 77874.683 us/op
+Iteration   6: 89267.017 us/op
+Iteration   7: 89091.403 us/op
+Iteration   8: 125640.227 us/op
+Iteration   9: 79347.837 us/op
+Iteration  10: 118773.907 us/op
+
+# Run progress: 7.58% complete, ETA 00:31:34
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 86163.333 us/op
+# Warmup Iteration   2: 118650.250 us/op
+# Warmup Iteration   3: 95689.375 us/op
+# Warmup Iteration   4: 93393.684 us/op
+# Warmup Iteration   5: 76104.619 us/op
+Iteration   1: 93228.809 us/op
+Iteration   2: 82771.933 us/op
+Iteration   3: 112760.758 us/op
+Iteration   4: 81271.604 us/op
+Iteration   5: 88059.535 us/op
+Iteration   6: 77922.649 us/op
+Iteration   7: 84915.340 us/op
+Iteration   8: 95779.867 us/op
+Iteration   9: 70163.300 us/op
+Iteration  10: 85369.413 us/op
+
+# Run progress: 8.33% complete, ETA 00:31:30
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 72591.631 us/op
+# Warmup Iteration   2: 84119.934 us/op
+# Warmup Iteration   3: 71579.260 us/op
+# Warmup Iteration   4: 66827.919 us/op
+# Warmup Iteration   5: 61572.836 us/op
+Iteration   1: 130231.755 us/op
+Iteration   2: 79780.464 us/op
+Iteration   3: 65456.841 us/op
+Iteration   4: 66161.583 us/op
+Iteration   5: 78944.077 us/op
+Iteration   6: 90417.250 us/op
+Iteration   7: 132983.009 us/op
+Iteration   8: 98611.572 us/op
+Iteration   9: 91772.655 us/op
+Iteration  10: 61176.012 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.rsa2048_keyGen":
+  91156.181 ±(99.9%) 12377.130 us/op [Average]
+  (min, avg, max) = (61176.012, 91156.181, 132983.009), stdev = 18525.506
+  CI (99.9%): [78779.051, 103533.311] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.rsa2048_sign
+
+# Run progress: 9.09% complete, ETA 00:31:21
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 936.374 us/op
+# Warmup Iteration   2: 914.957 us/op
+# Warmup Iteration   3: 917.752 us/op
+# Warmup Iteration   4: 914.094 us/op
+# Warmup Iteration   5: 950.010 us/op
+Iteration   1: 914.527 us/op
+Iteration   2: 917.463 us/op
+Iteration   3: 914.105 us/op
+Iteration   4: 909.229 us/op
+Iteration   5: 909.219 us/op
+Iteration   6: 907.624 us/op
+Iteration   7: 912.641 us/op
+Iteration   8: 908.829 us/op
+Iteration   9: 909.070 us/op
+Iteration  10: 909.387 us/op
+
+# Run progress: 9.85% complete, ETA 00:31:03
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 950.454 us/op
+# Warmup Iteration   2: 927.784 us/op
+# Warmup Iteration   3: 952.535 us/op
+# Warmup Iteration   4: 919.933 us/op
+# Warmup Iteration   5: 919.644 us/op
+Iteration   1: 920.317 us/op
+Iteration   2: 921.975 us/op
+Iteration   3: 916.398 us/op
+Iteration   4: 916.906 us/op
+Iteration   5: 916.856 us/op
+Iteration   6: 915.973 us/op
+Iteration   7: 922.140 us/op
+Iteration   8: 920.833 us/op
+Iteration   9: 959.299 us/op
+Iteration  10: 924.905 us/op
+
+# Run progress: 10.61% complete, ETA 00:30:45
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 953.243 us/op
+# Warmup Iteration   2: 923.778 us/op
+# Warmup Iteration   3: 963.861 us/op
+# Warmup Iteration   4: 920.258 us/op
+# Warmup Iteration   5: 921.181 us/op
+Iteration   1: 922.145 us/op
+Iteration   2: 915.085 us/op
+Iteration   3: 915.706 us/op
+Iteration   4: 916.994 us/op
+Iteration   5: 916.527 us/op
+Iteration   6: 918.193 us/op
+Iteration   7: 917.669 us/op
+Iteration   8: 917.222 us/op
+Iteration   9: 916.384 us/op
+Iteration  10: 926.141 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.rsa2048_sign":
+  917.659 ±(99.9%) 6.160 us/op [Average]
+  (min, avg, max) = (907.624, 917.659, 959.299), stdev = 9.220
+  CI (99.9%): [911.499, 923.819] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.rsa2048_verify
+
+# Run progress: 11.36% complete, ETA 00:30:28
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 41.219 us/op
+# Warmup Iteration   2: 38.130 us/op
+# Warmup Iteration   3: 38.020 us/op
+# Warmup Iteration   4: 39.311 us/op
+# Warmup Iteration   5: 37.815 us/op
+Iteration   1: 37.892 us/op
+Iteration   2: 38.090 us/op
+Iteration   3: 39.504 us/op
+Iteration   4: 37.792 us/op
+Iteration   5: 37.724 us/op
+Iteration   6: 37.807 us/op
+Iteration   7: 37.776 us/op
+Iteration   8: 37.847 us/op
+Iteration   9: 37.685 us/op
+Iteration  10: 39.321 us/op
+
+# Run progress: 12.12% complete, ETA 00:30:12
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 39.140 us/op
+# Warmup Iteration   2: 37.804 us/op
+# Warmup Iteration   3: 37.685 us/op
+# Warmup Iteration   4: 37.763 us/op
+# Warmup Iteration   5: 39.235 us/op
+Iteration   1: 37.656 us/op
+Iteration   2: 37.661 us/op
+Iteration   3: 37.669 us/op
+Iteration   4: 37.604 us/op
+Iteration   5: 39.189 us/op
+Iteration   6: 37.703 us/op
+Iteration   7: 37.705 us/op
+Iteration   8: 37.647 us/op
+Iteration   9: 37.967 us/op
+Iteration  10: 37.602 us/op
+
+# Run progress: 12.88% complete, ETA 00:29:54
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 40.281 us/op
+# Warmup Iteration   2: 37.685 us/op
+# Warmup Iteration   3: 37.542 us/op
+# Warmup Iteration   4: 37.612 us/op
+# Warmup Iteration   5: 37.750 us/op
+Iteration   1: 37.666 us/op
+Iteration   2: 38.445 us/op
+Iteration   3: 38.839 us/op
+Iteration   4: 37.337 us/op
+Iteration   5: 37.404 us/op
+Iteration   6: 37.365 us/op
+Iteration   7: 37.331 us/op
+Iteration   8: 37.448 us/op
+Iteration   9: 37.381 us/op
+Iteration  10: 37.495 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.rsa2048_verify":
+  37.885 ±(99.9%) 0.391 us/op [Average]
+  (min, avg, max) = (37.331, 37.885, 39.504), stdev = 0.585
+  CI (99.9%): [37.494, 38.276] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.x25519_keyAgreement
+
+# Run progress: 13.64% complete, ETA 00:29:38
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 124.219 us/op
+# Warmup Iteration   2: 103.883 us/op
+# Warmup Iteration   3: 103.645 us/op
+# Warmup Iteration   4: 103.589 us/op
+# Warmup Iteration   5: 103.963 us/op
+Iteration   1: 103.682 us/op
+Iteration   2: 103.558 us/op
+Iteration   3: 102.986 us/op
+Iteration   4: 103.541 us/op
+Iteration   5: 103.414 us/op
+Iteration   6: 103.339 us/op
+Iteration   7: 103.392 us/op
+Iteration   8: 103.222 us/op
+Iteration   9: 103.484 us/op
+Iteration  10: 103.516 us/op
+
+# Run progress: 14.39% complete, ETA 00:29:22
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 116.275 us/op
+# Warmup Iteration   2: 104.766 us/op
+# Warmup Iteration   3: 104.226 us/op
+# Warmup Iteration   4: 104.728 us/op
+# Warmup Iteration   5: 104.665 us/op
+Iteration   1: 104.532 us/op
+Iteration   2: 103.562 us/op
+Iteration   3: 102.500 us/op
+Iteration   4: 103.746 us/op
+Iteration   5: 103.581 us/op
+Iteration   6: 103.657 us/op
+Iteration   7: 103.900 us/op
+Iteration   8: 103.688 us/op
+Iteration   9: 103.756 us/op
+Iteration  10: 104.322 us/op
+
+# Run progress: 15.15% complete, ETA 00:29:06
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 119.824 us/op
+# Warmup Iteration   2: 103.684 us/op
+# Warmup Iteration   3: 104.027 us/op
+# Warmup Iteration   4: 104.249 us/op
+# Warmup Iteration   5: 104.082 us/op
+Iteration   1: 104.601 us/op
+Iteration   2: 108.095 us/op
+Iteration   3: 103.695 us/op
+Iteration   4: 103.864 us/op
+Iteration   5: 103.781 us/op
+Iteration   6: 108.180 us/op
+Iteration   7: 103.701 us/op
+Iteration   8: 104.647 us/op
+Iteration   9: 103.809 us/op
+Iteration  10: 103.557 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.x25519_keyAgreement":
+  103.977 ±(99.9%) 0.810 us/op [Average]
+  (min, avg, max) = (102.500, 103.977, 108.180), stdev = 1.212
+  CI (99.9%): [103.167, 104.787] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.x25519_keyGen
+
+# Run progress: 15.91% complete, ETA 00:28:49
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 121.398 us/op
+# Warmup Iteration   2: 105.202 us/op
+# Warmup Iteration   3: 109.639 us/op
+# Warmup Iteration   4: 104.984 us/op
+# Warmup Iteration   5: 105.141 us/op
+Iteration   1: 104.822 us/op
+Iteration   2: 104.975 us/op
+Iteration   3: 104.893 us/op
+Iteration   4: 109.592 us/op
+Iteration   5: 104.900 us/op
+Iteration   6: 104.983 us/op
+Iteration   7: 104.889 us/op
+Iteration   8: 105.549 us/op
+Iteration   9: 104.748 us/op
+Iteration  10: 104.734 us/op
+
+# Run progress: 16.67% complete, ETA 00:28:32
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 120.036 us/op
+# Warmup Iteration   2: 105.333 us/op
+# Warmup Iteration   3: 105.260 us/op
+# Warmup Iteration   4: 104.930 us/op
+# Warmup Iteration   5: 104.901 us/op
+Iteration   1: 110.534 us/op
+Iteration   2: 105.974 us/op
+Iteration   3: 105.325 us/op
+Iteration   4: 105.023 us/op
+Iteration   5: 109.742 us/op
+Iteration   6: 105.095 us/op
+Iteration   7: 106.249 us/op
+Iteration   8: 105.010 us/op
+Iteration   9: 104.945 us/op
+Iteration  10: 105.201 us/op
+
+# Run progress: 17.42% complete, ETA 00:28:16
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 117.004 us/op
+# Warmup Iteration   2: 109.794 us/op
+# Warmup Iteration   3: 105.556 us/op
+# Warmup Iteration   4: 105.475 us/op
+# Warmup Iteration   5: 105.257 us/op
+Iteration   1: 109.604 us/op
+Iteration   2: 105.436 us/op
+Iteration   3: 104.893 us/op
+Iteration   4: 105.047 us/op
+Iteration   5: 105.585 us/op
+Iteration   6: 105.081 us/op
+Iteration   7: 109.407 us/op
+Iteration   8: 105.087 us/op
+Iteration   9: 105.272 us/op
+Iteration  10: 105.515 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.ClassicalBenchmark.x25519_keyGen":
+  105.937 ±(99.9%) 1.194 us/op [Average]
+  (min, avg, max) = (104.734, 105.937, 110.534), stdev = 1.786
+  CI (99.9%): [104.743, 107.130] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen
+# Parameters: (level = 44, provider = BC)
+
+# Run progress: 18.18% complete, ETA 00:28:00
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+58.872 us/op
+# Warmup Iteration   2: 55.403 us/op
+# Warmup Iteration   3: 58.704 us/op
+# Warmup Iteration   4: 55.699 us/op
+# Warmup Iteration   5: 55.646 us/op
+Iteration   1: 56.063 us/op
+Iteration   2: 55.857 us/op
+Iteration   3: 56.203 us/op
+Iteration   4: 58.166 us/op
+Iteration   5: 54.739 us/op
+Iteration   6: 55.150 us/op
+Iteration   7: 55.104 us/op
+Iteration   8: 54.809 us/op
+Iteration   9: 55.156 us/op
+Iteration  10: 55.129 us/op
+
+# Run progress: 18.94% complete, ETA 00:27:44
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+58.967 us/op
+# Warmup Iteration   2: 55.351 us/op
+# Warmup Iteration   3: 55.258 us/op
+# Warmup Iteration   4: 55.384 us/op
+# Warmup Iteration   5: 55.114 us/op
+Iteration   1: 55.391 us/op
+Iteration   2: 55.171 us/op
+Iteration   3: 55.381 us/op
+Iteration   4: 55.181 us/op
+Iteration   5: 55.090 us/op
+Iteration   6: 55.228 us/op
+Iteration   7: 55.121 us/op
+Iteration   8: 55.395 us/op
+Iteration   9: 54.969 us/op
+Iteration  10: 55.202 us/op
+
+# Run progress: 19.70% complete, ETA 00:27:28
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+58.625 us/op
+# Warmup Iteration   2: 55.398 us/op
+# Warmup Iteration   3: 55.309 us/op
+# Warmup Iteration   4: 55.833 us/op
+# Warmup Iteration   5: 58.201 us/op
+Iteration   1: 55.799 us/op
+Iteration   2: 57.912 us/op
+Iteration   3: 55.656 us/op
+Iteration   4: 56.184 us/op
+Iteration   5: 55.637 us/op
+Iteration   6: 56.404 us/op
+Iteration   7: 55.697 us/op
+Iteration   8: 57.891 us/op
+Iteration   9: 55.712 us/op
+Iteration  10: 55.803 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen":
+  55.707 ±(99.9%) 0.588 us/op [Average]
+  (min, avg, max) = (54.739, 55.707, 58.166), stdev = 0.881
+  CI (99.9%): [55.118, 56.295] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen
+# Parameters: (level = 44, provider = JDK)
+
+# Run progress: 20.45% complete, ETA 00:27:12
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+43.325 us/op
+# Warmup Iteration   2: 37.856 us/op
+# Warmup Iteration   3: 39.082 us/op
+# Warmup Iteration   4: 37.188 us/op
+# Warmup Iteration   5: 36.632 us/op
+Iteration   1: 36.847 us/op
+Iteration   2: 36.543 us/op
+Iteration   3: 36.480 us/op
+Iteration   4: 36.377 us/op
+Iteration   5: 36.386 us/op
+Iteration   6: 36.451 us/op
+Iteration   7: 36.456 us/op
+Iteration   8: 36.408 us/op
+Iteration   9: 36.394 us/op
+Iteration  10: 36.415 us/op
+
+# Run progress: 21.21% complete, ETA 00:26:56
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+41.344 us/op
+# Warmup Iteration   2: 36.787 us/op
+# Warmup Iteration   3: 36.624 us/op
+# Warmup Iteration   4: 36.597 us/op
+# Warmup Iteration   5: 36.541 us/op
+Iteration   1: 36.555 us/op
+Iteration   2: 36.625 us/op
+Iteration   3: 36.535 us/op
+Iteration   4: 36.521 us/op
+Iteration   5: 36.567 us/op
+Iteration   6: 36.480 us/op
+Iteration   7: 36.606 us/op
+Iteration   8: 36.512 us/op
+Iteration   9: 36.530 us/op
+Iteration  10: 38.175 us/op
+
+# Run progress: 21.97% complete, ETA 00:26:40
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+41.522 us/op
+# Warmup Iteration   2: 36.712 us/op
+# Warmup Iteration   3: 36.452 us/op
+# Warmup Iteration   4: 36.403 us/op
+# Warmup Iteration   5: 36.817 us/op
+Iteration   1: 36.365 us/op
+Iteration   2: 36.463 us/op
+Iteration   3: 36.344 us/op
+Iteration   4: 36.350 us/op
+Iteration   5: 36.411 us/op
+Iteration   6: 36.345 us/op
+Iteration   7: 36.399 us/op
+Iteration   8: 36.365 us/op
+Iteration   9: 36.338 us/op
+Iteration  10: 36.354 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen":
+  36.520 ±(99.9%) 0.222 us/op [Average]
+  (min, avg, max) = (36.338, 36.520, 38.175), stdev = 0.332
+  CI (99.9%): [36.298, 36.741] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen
+# Parameters: (level = 65, provider = BC)
+
+# Run progress: 22.73% complete, ETA 00:26:24
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+109.193 us/op
+# Warmup Iteration   2: 102.826 us/op
+# Warmup Iteration   3: 102.593 us/op
+# Warmup Iteration   4: 102.615 us/op
+# Warmup Iteration   5: 102.592 us/op
+Iteration   1: 103.014 us/op
+Iteration   2: 102.559 us/op
+Iteration   3: 102.676 us/op
+Iteration   4: 102.522 us/op
+Iteration   5: 102.413 us/op
+Iteration   6: 102.801 us/op
+Iteration   7: 102.510 us/op
+Iteration   8: 102.514 us/op
+Iteration   9: 102.426 us/op
+Iteration  10: 102.514 us/op
+
+# Run progress: 23.48% complete, ETA 00:26:08
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+108.346 us/op
+# Warmup Iteration   2: 103.381 us/op
+# Warmup Iteration   3: 102.393 us/op
+# Warmup Iteration   4: 102.735 us/op
+# Warmup Iteration   5: 102.058 us/op
+Iteration   1: 102.365 us/op
+Iteration   2: 102.304 us/op
+Iteration   3: 102.174 us/op
+Iteration   4: 102.298 us/op
+Iteration   5: 102.200 us/op
+Iteration   6: 102.511 us/op
+Iteration   7: 102.241 us/op
+Iteration   8: 102.128 us/op
+Iteration   9: 102.133 us/op
+Iteration  10: 102.081 us/op
+
+# Run progress: 24.24% complete, ETA 00:25:52
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+108.061 us/op
+# Warmup Iteration   2: 103.742 us/op
+# Warmup Iteration   3: 103.650 us/op
+# Warmup Iteration   4: 103.644 us/op
+# Warmup Iteration   5: 103.547 us/op
+Iteration   1: 103.870 us/op
+Iteration   2: 103.499 us/op
+Iteration   3: 103.532 us/op
+Iteration   4: 103.446 us/op
+Iteration   5: 103.404 us/op
+Iteration   6: 103.590 us/op
+Iteration   7: 103.403 us/op
+Iteration   8: 103.448 us/op
+Iteration   9: 103.509 us/op
+Iteration  10: 103.436 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen":
+  102.784 ±(99.9%) 0.377 us/op [Average]
+  (min, avg, max) = (102.081, 102.784, 103.870), stdev = 0.565
+  CI (99.9%): [102.407, 103.161] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen
+# Parameters: (level = 65, provider = JDK)
+
+# Run progress: 25.00% complete, ETA 00:25:36
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+84.141 us/op
+# Warmup Iteration   2: 76.359 us/op
+# Warmup Iteration   3: 75.395 us/op
+# Warmup Iteration   4: 75.764 us/op
+# Warmup Iteration   5: 75.199 us/op
+Iteration   1: 75.181 us/op
+Iteration   2: 75.143 us/op
+Iteration   3: 75.103 us/op
+Iteration   4: 75.194 us/op
+Iteration   5: 74.989 us/op
+Iteration   6: 75.019 us/op
+Iteration   7: 74.935 us/op
+Iteration   8: 74.968 us/op
+Iteration   9: 74.931 us/op
+Iteration  10: 75.049 us/op
+
+# Run progress: 25.76% complete, ETA 00:25:20
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+85.352 us/op
+# Warmup Iteration   2: 74.881 us/op
+# Warmup Iteration   3: 74.699 us/op
+# Warmup Iteration   4: 74.762 us/op
+# Warmup Iteration   5: 75.046 us/op
+Iteration   1: 74.708 us/op
+Iteration   2: 74.718 us/op
+Iteration   3: 74.784 us/op
+Iteration   4: 74.580 us/op
+Iteration   5: 74.618 us/op
+Iteration   6: 74.534 us/op
+Iteration   7: 74.572 us/op
+Iteration   8: 74.535 us/op
+Iteration   9: 74.520 us/op
+Iteration  10: 74.572 us/op
+
+# Run progress: 26.52% complete, ETA 00:25:05
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+84.738 us/op
+# Warmup Iteration   2: 75.038 us/op
+# Warmup Iteration   3: 76.259 us/op
+# Warmup Iteration   4: 74.948 us/op
+# Warmup Iteration   5: 74.956 us/op
+Iteration   1: 74.908 us/op
+Iteration   2: 74.966 us/op
+Iteration   3: 75.066 us/op
+Iteration   4: 74.937 us/op
+Iteration   5: 74.810 us/op
+Iteration   6: 74.965 us/op
+Iteration   7: 75.506 us/op
+Iteration   8: 74.750 us/op
+Iteration   9: 74.832 us/op
+Iteration  10: 74.979 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen":
+  74.879 ±(99.9%) 0.159 us/op [Average]
+  (min, avg, max) = (74.520, 74.879, 75.506), stdev = 0.238
+  CI (99.9%): [74.720, 75.038] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen
+# Parameters: (level = 87, provider = BC)
+
+# Run progress: 27.27% complete, ETA 00:24:49
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+154.513 us/op
+# Warmup Iteration   2: 148.171 us/op
+# Warmup Iteration   3: 147.150 us/op
+# Warmup Iteration   4: 147.293 us/op
+# Warmup Iteration   5: 147.305 us/op
+Iteration   1: 147.213 us/op
+Iteration   2: 147.054 us/op
+Iteration   3: 147.039 us/op
+Iteration   4: 147.102 us/op
+Iteration   5: 147.404 us/op
+Iteration   6: 146.935 us/op
+Iteration   7: 152.517 us/op
+Iteration   8: 147.935 us/op
+Iteration   9: 147.014 us/op
+Iteration  10: 147.251 us/op
+
+# Run progress: 28.03% complete, ETA 00:24:33
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+153.939 us/op
+# Warmup Iteration   2: 148.858 us/op
+# Warmup Iteration   3: 145.565 us/op
+# Warmup Iteration   4: 145.611 us/op
+# Warmup Iteration   5: 145.117 us/op
+Iteration   1: 145.217 us/op
+Iteration   2: 145.498 us/op
+Iteration   3: 145.204 us/op
+Iteration   4: 145.601 us/op
+Iteration   5: 145.115 us/op
+Iteration   6: 144.995 us/op
+Iteration   7: 144.960 us/op
+Iteration   8: 144.995 us/op
+Iteration   9: 145.079 us/op
+Iteration  10: 145.020 us/op
+
+# Run progress: 28.79% complete, ETA 00:24:17
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+154.002 us/op
+# Warmup Iteration   2: 146.037 us/op
+# Warmup Iteration   3: 145.195 us/op
+# Warmup Iteration   4: 145.599 us/op
+# Warmup Iteration   5: 145.180 us/op
+Iteration   1: 145.030 us/op
+Iteration   2: 145.099 us/op
+Iteration   3: 145.097 us/op
+Iteration   4: 145.429 us/op
+Iteration   5: 145.146 us/op
+Iteration   6: 144.918 us/op
+Iteration   7: 144.931 us/op
+Iteration   8: 145.066 us/op
+Iteration   9: 145.435 us/op
+Iteration  10: 144.914 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen":
+  146.007 ±(99.9%) 1.054 us/op [Average]
+  (min, avg, max) = (144.914, 146.007, 152.517), stdev = 1.578
+  CI (99.9%): [144.953, 147.061] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen
+# Parameters: (level = 87, provider = JDK)
+
+# Run progress: 29.55% complete, ETA 00:24:02
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+104.412 us/op
+# Warmup Iteration   2: 95.288 us/op
+# Warmup Iteration   3: 94.505 us/op
+# Warmup Iteration   4: 94.405 us/op
+# Warmup Iteration   5: 94.050 us/op
+Iteration   1: 93.996 us/op
+Iteration   2: 94.339 us/op
+Iteration   3: 94.147 us/op
+Iteration   4: 97.970 us/op
+Iteration   5: 94.114 us/op
+Iteration   6: 94.154 us/op
+Iteration   7: 94.099 us/op
+Iteration   8: 94.085 us/op
+Iteration   9: 94.296 us/op
+Iteration  10: 94.074 us/op
+
+# Run progress: 30.30% complete, ETA 00:23:46
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+104.763 us/op
+# Warmup Iteration   2: 93.918 us/op
+# Warmup Iteration   3: 93.888 us/op
+# Warmup Iteration   4: 93.837 us/op
+# Warmup Iteration   5: 93.759 us/op
+Iteration   1: 93.752 us/op
+Iteration   2: 93.760 us/op
+Iteration   3: 93.984 us/op
+Iteration   4: 93.676 us/op
+Iteration   5: 93.738 us/op
+Iteration   6: 93.895 us/op
+Iteration   7: 93.726 us/op
+Iteration   8: 93.573 us/op
+Iteration   9: 93.720 us/op
+Iteration  10: 93.702 us/op
+
+# Run progress: 31.06% complete, ETA 00:23:30
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+106.535 us/op
+# Warmup Iteration   2: 93.901 us/op
+# Warmup Iteration   3: 94.070 us/op
+# Warmup Iteration   4: 93.769 us/op
+# Warmup Iteration   5: 93.815 us/op
+Iteration   1: 93.965 us/op
+Iteration   2: 94.083 us/op
+Iteration   3: 94.211 us/op
+Iteration   4: 93.914 us/op
+Iteration   5: 93.961 us/op
+Iteration   6: 93.708 us/op
+Iteration   7: 93.218 us/op
+Iteration   8: 93.615 us/op
+Iteration   9: 93.863 us/op
+Iteration  10: 93.841 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.keyGen":
+  94.039 ±(99.9%) 0.522 us/op [Average]
+  (min, avg, max) = (93.218, 94.039, 97.970), stdev = 0.781
+  CI (99.9%): [93.518, 94.561] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign
+# Parameters: (level = 44, provider = BC)
+
+# Run progress: 31.82% complete, ETA 00:23:14
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+183.642 us/op
+# Warmup Iteration   2: 188.411 us/op
+# Warmup Iteration   3: 182.380 us/op
+# Warmup Iteration   4: 182.187 us/op
+# Warmup Iteration   5: 182.174 us/op
+Iteration   1: 182.090 us/op
+Iteration   2: 182.233 us/op
+Iteration   3: 182.640 us/op
+Iteration   4: 182.125 us/op
+Iteration   5: 182.394 us/op
+Iteration   6: 182.287 us/op
+Iteration   7: 181.097 us/op
+Iteration   8: 181.356 us/op
+Iteration   9: 180.711 us/op
+Iteration  10: 180.831 us/op
+
+# Run progress: 32.58% complete, ETA 00:22:59
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+111.124 us/op
+# Warmup Iteration   2: 106.264 us/op
+# Warmup Iteration   3: 106.230 us/op
+# Warmup Iteration   4: 106.246 us/op
+# Warmup Iteration   5: 106.810 us/op
+Iteration   1: 106.246 us/op
+Iteration   2: 106.246 us/op
+Iteration   3: 105.800 us/op
+Iteration   4: 105.672 us/op
+Iteration   5: 105.763 us/op
+Iteration   6: 105.920 us/op
+Iteration   7: 105.844 us/op
+Iteration   8: 105.964 us/op
+Iteration   9: 105.732 us/op
+Iteration  10: 105.643 us/op
+
+# Run progress: 33.33% complete, ETA 00:22:43
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+312.008 us/op
+# Warmup Iteration   2: 317.845 us/op
+# Warmup Iteration   3: 316.752 us/op
+# Warmup Iteration   4: 316.030 us/op
+# Warmup Iteration   5: 315.619 us/op
+Iteration   1: 316.518 us/op
+Iteration   2: 316.914 us/op
+Iteration   3: 316.051 us/op
+Iteration   4: 315.839 us/op
+Iteration   5: 329.140 us/op
+Iteration   6: 316.680 us/op
+Iteration   7: 316.232 us/op
+Iteration   8: 315.985 us/op
+Iteration   9: 316.015 us/op
+Iteration  10: 317.241 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign":
+  201.774 ±(99.9%) 59.552 us/op [Average]
+  (min, avg, max) = (105.643, 201.774, 329.140), stdev = 89.134
+  CI (99.9%): [142.222, 261.325] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign
+# Parameters: (level = 44, provider = JDK)
+
+# Run progress: 34.09% complete, ETA 00:22:27
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+115.191 us/op
+# Warmup Iteration   2: 104.666 us/op
+# Warmup Iteration   3: 105.211 us/op
+# Warmup Iteration   4: 104.900 us/op
+# Warmup Iteration   5: 103.891 us/op
+Iteration   1: 104.772 us/op
+Iteration   2: 104.862 us/op
+Iteration   3: 104.043 us/op
+Iteration   4: 104.554 us/op
+Iteration   5: 104.617 us/op
+Iteration   6: 103.257 us/op
+Iteration   7: 104.292 us/op
+Iteration   8: 105.677 us/op
+Iteration   9: 103.921 us/op
+Iteration  10: 104.364 us/op
+
+# Run progress: 34.85% complete, ETA 00:22:12
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+115.399 us/op
+# Warmup Iteration   2: 104.533 us/op
+# Warmup Iteration   3: 104.769 us/op
+# Warmup Iteration   4: 105.106 us/op
+# Warmup Iteration   5: 105.640 us/op
+Iteration   1: 106.405 us/op
+Iteration   2: 104.197 us/op
+Iteration   3: 105.703 us/op
+Iteration   4: 104.065 us/op
+Iteration   5: 104.879 us/op
+Iteration   6: 104.607 us/op
+Iteration   7: 104.788 us/op
+Iteration   8: 104.932 us/op
+Iteration   9: 106.255 us/op
+Iteration  10: 105.473 us/op
+
+# Run progress: 35.61% complete, ETA 00:21:56
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+114.237 us/op
+# Warmup Iteration   2: 105.014 us/op
+# Warmup Iteration   3: 104.146 us/op
+# Warmup Iteration   4: 104.033 us/op
+# Warmup Iteration   5: 104.187 us/op
+Iteration   1: 105.454 us/op
+Iteration   2: 109.227 us/op
+Iteration   3: 103.769 us/op
+Iteration   4: 105.330 us/op
+Iteration   5: 105.013 us/op
+Iteration   6: 104.724 us/op
+Iteration   7: 104.992 us/op
+Iteration   8: 104.411 us/op
+Iteration   9: 104.323 us/op
+Iteration  10: 103.723 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign":
+  104.888 ±(99.9%) 0.731 us/op [Average]
+  (min, avg, max) = (103.257, 104.888, 109.227), stdev = 1.095
+  CI (99.9%): [104.156, 105.619] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign
+# Parameters: (level = 65, provider = BC)
+
+# Run progress: 36.36% complete, ETA 00:21:41
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+717.748 us/op
+# Warmup Iteration   2: 779.021 us/op
+# Warmup Iteration   3: 810.487 us/op
+# Warmup Iteration   4: 810.038 us/op
+# Warmup Iteration   5: 811.011 us/op
+Iteration   1: 810.795 us/op
+Iteration   2: 810.184 us/op
+Iteration   3: 812.672 us/op
+Iteration   4: 809.459 us/op
+Iteration   5: 810.745 us/op
+Iteration   6: 811.966 us/op
+Iteration   7: 817.512 us/op
+Iteration   8: 813.013 us/op
+Iteration   9: 817.203 us/op
+Iteration  10: 810.262 us/op
+
+# Run progress: 37.12% complete, ETA 00:21:25
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+435.775 us/op
+# Warmup Iteration   2: 435.481 us/op
+# Warmup Iteration   3: 444.104 us/op
+# Warmup Iteration   4: 439.826 us/op
+# Warmup Iteration   5: 439.817 us/op
+Iteration   1: 440.803 us/op
+Iteration   2: 440.006 us/op
+Iteration   3: 439.629 us/op
+Iteration   4: 439.845 us/op
+Iteration   5: 439.818 us/op
+Iteration   6: 440.951 us/op
+Iteration   7: 456.689 us/op
+Iteration   8: 439.928 us/op
+Iteration   9: 439.708 us/op
+Iteration  10: 439.647 us/op
+
+# Run progress: 37.88% complete, ETA 00:21:10
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+165.567 us/op
+# Warmup Iteration   2: 160.389 us/op
+# Warmup Iteration   3: 160.033 us/op
+# Warmup Iteration   4: 160.105 us/op
+# Warmup Iteration   5: 160.541 us/op
+Iteration   1: 160.150 us/op
+Iteration   2: 160.140 us/op
+Iteration   3: 160.061 us/op
+Iteration   4: 160.036 us/op
+Iteration   5: 160.190 us/op
+Iteration   6: 158.540 us/op
+Iteration   7: 158.450 us/op
+Iteration   8: 159.457 us/op
+Iteration   9: 158.413 us/op
+Iteration  10: 158.882 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign":
+  471.172 ±(99.9%) 181.707 us/op [Average]
+  (min, avg, max) = (158.413, 471.172, 817.512), stdev = 271.970
+  CI (99.9%): [289.465, 652.879] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign
+# Parameters: (level = 65, provider = JDK)
+
+# Run progress: 38.64% complete, ETA 00:20:54
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+184.462 us/op
+# Warmup Iteration   2: 170.220 us/op
+# Warmup Iteration   3: 166.269 us/op
+# Warmup Iteration   4: 171.506 us/op
+# Warmup Iteration   5: 166.491 us/op
+Iteration   1: 168.834 us/op
+Iteration   2: 169.873 us/op
+Iteration   3: 168.276 us/op
+Iteration   4: 168.129 us/op
+Iteration   5: 167.258 us/op
+Iteration   6: 170.146 us/op
+Iteration   7: 167.661 us/op
+Iteration   8: 171.980 us/op
+Iteration   9: 167.401 us/op
+Iteration  10: 169.233 us/op
+
+# Run progress: 39.39% complete, ETA 00:20:39
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+182.835 us/op
+# Warmup Iteration   2: 168.735 us/op
+# Warmup Iteration   3: 167.961 us/op
+# Warmup Iteration   4: 166.714 us/op
+# Warmup Iteration   5: 166.573 us/op
+Iteration   1: 170.214 us/op
+Iteration   2: 171.046 us/op
+Iteration   3: 165.791 us/op
+Iteration   4: 168.849 us/op
+Iteration   5: 166.268 us/op
+Iteration   6: 169.234 us/op
+Iteration   7: 168.832 us/op
+Iteration   8: 167.666 us/op
+Iteration   9: 167.712 us/op
+Iteration  10: 168.046 us/op
+
+# Run progress: 40.15% complete, ETA 00:20:23
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+183.968 us/op
+# Warmup Iteration   2: 168.407 us/op
+# Warmup Iteration   3: 168.976 us/op
+# Warmup Iteration   4: 168.103 us/op
+# Warmup Iteration   5: 167.184 us/op
+Iteration   1: 169.186 us/op
+Iteration   2: 169.574 us/op
+Iteration   3: 167.485 us/op
+Iteration   4: 169.142 us/op
+Iteration   5: 169.647 us/op
+Iteration   6: 170.458 us/op
+Iteration   7: 166.928 us/op
+Iteration   8: 169.136 us/op
+Iteration   9: 167.477 us/op
+Iteration  10: 166.141 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign":
+  168.587 ±(99.9%) 0.981 us/op [Average]
+  (min, avg, max) = (165.791, 168.587, 171.980), stdev = 1.468
+  CI (99.9%): [167.607, 169.568] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign
+# Parameters: (level = 87, provider = BC)
+
+# Run progress: 40.91% complete, ETA 00:20:08
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+558.315 us/op
+# Warmup Iteration   2: 542.159 us/op
+# Warmup Iteration   3: 540.207 us/op
+# Warmup Iteration   4: 539.886 us/op
+# Warmup Iteration   5: 536.678 us/op
+Iteration   1: 536.877 us/op
+Iteration   2: 536.813 us/op
+Iteration   3: 536.780 us/op
+Iteration   4: 538.072 us/op
+Iteration   5: 537.010 us/op
+Iteration   6: 541.992 us/op
+Iteration   7: 536.814 us/op
+Iteration   8: 537.020 us/op
+Iteration   9: 538.292 us/op
+Iteration  10: 536.610 us/op
+
+# Run progress: 41.67% complete, ETA 00:19:52
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+631.943 us/op
+# Warmup Iteration   2: 609.880 us/op
+# Warmup Iteration   3: 636.558 us/op
+# Warmup Iteration   4: 638.694 us/op
+# Warmup Iteration   5: 636.069 us/op
+Iteration   1: 635.520 us/op
+Iteration   2: 635.709 us/op
+Iteration   3: 635.837 us/op
+Iteration   4: 637.240 us/op
+Iteration   5: 635.657 us/op
+Iteration   6: 636.371 us/op
+Iteration   7: 635.963 us/op
+Iteration   8: 634.724 us/op
+Iteration   9: 637.828 us/op
+Iteration  10: 635.853 us/op
+
+# Run progress: 42.42% complete, ETA 00:19:37
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+1619.380 us/op
+# Warmup Iteration   2: 1615.565 us/op
+# Warmup Iteration   3: 1706.969 us/op
+# Warmup Iteration   4: 1701.068 us/op
+# Warmup Iteration   5: 1706.928 us/op
+Iteration   1: 1704.080 us/op
+Iteration   2: 1700.339 us/op
+Iteration   3: 1705.989 us/op
+Iteration   4: 1702.071 us/op
+Iteration   5: 1712.894 us/op
+Iteration   6: 1701.190 us/op
+Iteration   7: 1698.174 us/op
+Iteration   8: 1703.306 us/op
+Iteration   9: 1698.874 us/op
+Iteration  10: 1700.668 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign":
+  958.819 ±(99.9%) 358.511 us/op [Average]
+  (min, avg, max) = (536.610, 958.819, 1712.894), stdev = 536.603
+  CI (99.9%): [600.307, 1317.330] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign
+# Parameters: (level = 87, provider = JDK)
+
+# Run progress: 43.18% complete, ETA 00:19:21
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+225.411 us/op
+# Warmup Iteration   2: 209.506 us/op
+# Warmup Iteration   3: 209.285 us/op
+# Warmup Iteration   4: 207.169 us/op
+# Warmup Iteration   5: 214.712 us/op
+Iteration   1: 208.321 us/op
+Iteration   2: 205.074 us/op
+Iteration   3: 204.552 us/op
+Iteration   4: 205.334 us/op
+Iteration   5: 210.947 us/op
+Iteration   6: 206.397 us/op
+Iteration   7: 206.567 us/op
+Iteration   8: 209.251 us/op
+Iteration   9: 207.638 us/op
+Iteration  10: 209.875 us/op
+
+# Run progress: 43.94% complete, ETA 00:19:06
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+257.100 us/op
+# Warmup Iteration   2: 209.612 us/op
+# Warmup Iteration   3: 206.928 us/op
+# Warmup Iteration   4: 208.284 us/op
+# Warmup Iteration   5: 205.071 us/op
+Iteration   1: 207.152 us/op
+Iteration   2: 207.866 us/op
+Iteration   3: 203.974 us/op
+Iteration   4: 208.699 us/op
+Iteration   5: 206.747 us/op
+Iteration   6: 208.691 us/op
+Iteration   7: 208.315 us/op
+Iteration   8: 209.242 us/op
+Iteration   9: 208.108 us/op
+Iteration  10: 206.346 us/op
+
+# Run progress: 44.70% complete, ETA 00:18:50
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+229.972 us/op
+# Warmup Iteration   2: 211.374 us/op
+# Warmup Iteration   3: 210.019 us/op
+# Warmup Iteration   4: 207.306 us/op
+# Warmup Iteration   5: 209.982 us/op
+Iteration   1: 209.394 us/op
+Iteration   2: 206.487 us/op
+Iteration   3: 211.627 us/op
+Iteration   4: 207.451 us/op
+Iteration   5: 209.827 us/op
+Iteration   6: 210.873 us/op
+Iteration   7: 209.229 us/op
+Iteration   8: 210.298 us/op
+Iteration   9: 207.877 us/op
+Iteration  10: 207.128 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.sign":
+  207.976 ±(99.9%) 1.283 us/op [Average]
+  (min, avg, max) = (203.974, 207.976, 211.627), stdev = 1.920
+  CI (99.9%): [206.694, 209.259] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify
+# Parameters: (level = 44, provider = BC)
+
+# Run progress: 45.45% complete, ETA 00:18:35
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+63.518 us/op
+# Warmup Iteration   2: 59.940 us/op
+# Warmup Iteration   3: 62.049 us/op
+# Warmup Iteration   4: 60.312 us/op
+# Warmup Iteration   5: 61.547 us/op
+Iteration   1: 61.509 us/op
+Iteration   2: 61.713 us/op
+Iteration   3: 61.948 us/op
+Iteration   4: 61.855 us/op
+Iteration   5: 61.460 us/op
+Iteration   6: 61.541 us/op
+Iteration   7: 61.603 us/op
+Iteration   8: 61.706 us/op
+Iteration   9: 61.508 us/op
+Iteration  10: 61.553 us/op
+
+# Run progress: 46.21% complete, ETA 00:18:19
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+64.710 us/op
+# Warmup Iteration   2: 59.766 us/op
+# Warmup Iteration   3: 59.624 us/op
+# Warmup Iteration   4: 60.207 us/op
+# Warmup Iteration   5: 61.404 us/op
+Iteration   1: 61.641 us/op
+Iteration   2: 61.438 us/op
+Iteration   3: 61.425 us/op
+Iteration   4: 61.466 us/op
+Iteration   5: 61.467 us/op
+Iteration   6: 61.606 us/op
+Iteration   7: 61.409 us/op
+Iteration   8: 61.428 us/op
+Iteration   9: 61.449 us/op
+Iteration  10: 61.418 us/op
+
+# Run progress: 46.97% complete, ETA 00:18:04
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+63.680 us/op
+# Warmup Iteration   2: 59.749 us/op
+# Warmup Iteration   3: 59.657 us/op
+# Warmup Iteration   4: 60.234 us/op
+# Warmup Iteration   5: 61.372 us/op
+Iteration   1: 61.574 us/op
+Iteration   2: 61.248 us/op
+Iteration   3: 61.695 us/op
+Iteration   4: 61.352 us/op
+Iteration   5: 61.311 us/op
+Iteration   6: 61.507 us/op
+Iteration   7: 61.339 us/op
+Iteration   8: 63.640 us/op
+Iteration   9: 61.351 us/op
+Iteration  10: 61.325 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify":
+  61.583 ±(99.9%) 0.281 us/op [Average]
+  (min, avg, max) = (61.248, 61.583, 63.640), stdev = 0.420
+  CI (99.9%): [61.302, 61.863] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify
+# Parameters: (level = 44, provider = JDK)
+
+# Run progress: 47.73% complete, ETA 00:17:48
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+34.377 us/op
+# Warmup Iteration   2: 30.426 us/op
+# Warmup Iteration   3: 30.512 us/op
+# Warmup Iteration   4: 30.524 us/op
+# Warmup Iteration   5: 30.508 us/op
+Iteration   1: 30.510 us/op
+Iteration   2: 30.510 us/op
+Iteration   3: 30.494 us/op
+Iteration   4: 30.491 us/op
+Iteration   5: 30.483 us/op
+Iteration   6: 30.575 us/op
+Iteration   7: 30.552 us/op
+Iteration   8: 30.491 us/op
+Iteration   9: 30.504 us/op
+Iteration  10: 30.542 us/op
+
+# Run progress: 48.48% complete, ETA 00:17:33
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+34.350 us/op
+# Warmup Iteration   2: 30.495 us/op
+# Warmup Iteration   3: 30.438 us/op
+# Warmup Iteration   4: 30.475 us/op
+# Warmup Iteration   5: 30.451 us/op
+Iteration   1: 30.479 us/op
+Iteration   2: 30.776 us/op
+Iteration   3: 30.472 us/op
+Iteration   4: 30.490 us/op
+Iteration   5: 30.425 us/op
+Iteration   6: 30.548 us/op
+Iteration   7: 30.499 us/op
+Iteration   8: 30.460 us/op
+Iteration   9: 30.488 us/op
+Iteration  10: 30.452 us/op
+
+# Run progress: 49.24% complete, ETA 00:17:17
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+34.094 us/op
+# Warmup Iteration   2: 30.423 us/op
+# Warmup Iteration   3: 30.425 us/op
+# Warmup Iteration   4: 30.466 us/op
+# Warmup Iteration   5: 30.530 us/op
+Iteration   1: 30.439 us/op
+Iteration   2: 30.436 us/op
+Iteration   3: 30.441 us/op
+Iteration   4: 30.407 us/op
+Iteration   5: 30.497 us/op
+Iteration   6: 30.430 us/op
+Iteration   7: 30.421 us/op
+Iteration   8: 30.430 us/op
+Iteration   9: 30.430 us/op
+Iteration  10: 30.503 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify":
+  30.489 ±(99.9%) 0.046 us/op [Average]
+  (min, avg, max) = (30.407, 30.489, 30.776), stdev = 0.069
+  CI (99.9%): [30.443, 30.535] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify
+# Parameters: (level = 65, provider = BC)
+
+# Run progress: 50.00% complete, ETA 00:17:02
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+102.875 us/op
+# Warmup Iteration   2: 96.396 us/op
+# Warmup Iteration   3: 96.139 us/op
+# Warmup Iteration   4: 96.282 us/op
+# Warmup Iteration   5: 96.504 us/op
+Iteration   1: 97.686 us/op
+Iteration   2: 96.555 us/op
+Iteration   3: 96.627 us/op
+Iteration   4: 96.463 us/op
+Iteration   5: 96.764 us/op
+Iteration   6: 96.803 us/op
+Iteration   7: 96.436 us/op
+Iteration   8: 96.507 us/op
+Iteration   9: 96.313 us/op
+Iteration  10: 96.740 us/op
+
+# Run progress: 50.76% complete, ETA 00:16:46
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+102.907 us/op
+# Warmup Iteration   2: 102.377 us/op
+# Warmup Iteration   3: 101.070 us/op
+# Warmup Iteration   4: 101.122 us/op
+# Warmup Iteration   5: 102.068 us/op
+Iteration   1: 101.061 us/op
+Iteration   2: 97.493 us/op
+Iteration   3: 96.716 us/op
+Iteration   4: 96.801 us/op
+Iteration   5: 96.630 us/op
+Iteration   6: 97.123 us/op
+Iteration   7: 96.479 us/op
+Iteration   8: 96.580 us/op
+Iteration   9: 96.729 us/op
+Iteration  10: 100.554 us/op
+
+# Run progress: 51.52% complete, ETA 00:16:31
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+102.128 us/op
+# Warmup Iteration   2: 97.019 us/op
+# Warmup Iteration   3: 96.219 us/op
+# Warmup Iteration   4: 96.399 us/op
+# Warmup Iteration   5: 97.145 us/op
+Iteration   1: 96.269 us/op
+Iteration   2: 96.537 us/op
+Iteration   3: 96.453 us/op
+Iteration   4: 96.714 us/op
+Iteration   5: 96.639 us/op
+Iteration   6: 96.558 us/op
+Iteration   7: 96.234 us/op
+Iteration   8: 96.213 us/op
+Iteration   9: 96.151 us/op
+Iteration  10: 96.332 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify":
+  96.905 ±(99.9%) 0.745 us/op [Average]
+  (min, avg, max) = (96.151, 96.905, 101.061), stdev = 1.114
+  CI (99.9%): [96.161, 97.650] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify
+# Parameters: (level = 65, provider = JDK)
+
+# Run progress: 52.27% complete, ETA 00:16:15
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+55.516 us/op
+# Warmup Iteration   2: 50.077 us/op
+# Warmup Iteration   3: 49.935 us/op
+# Warmup Iteration   4: 50.051 us/op
+# Warmup Iteration   5: 49.954 us/op
+Iteration   1: 49.968 us/op
+Iteration   2: 49.839 us/op
+Iteration   3: 49.913 us/op
+Iteration   4: 49.894 us/op
+Iteration   5: 49.837 us/op
+Iteration   6: 49.829 us/op
+Iteration   7: 49.789 us/op
+Iteration   8: 49.832 us/op
+Iteration   9: 50.000 us/op
+Iteration  10: 49.890 us/op
+
+# Run progress: 53.03% complete, ETA 00:16:00
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+56.927 us/op
+# Warmup Iteration   2: 49.956 us/op
+# Warmup Iteration   3: 49.936 us/op
+# Warmup Iteration   4: 49.969 us/op
+# Warmup Iteration   5: 50.038 us/op
+Iteration   1: 49.819 us/op
+Iteration   2: 49.744 us/op
+Iteration   3: 49.893 us/op
+Iteration   4: 49.835 us/op
+Iteration   5: 49.738 us/op
+Iteration   6: 51.766 us/op
+Iteration   7: 49.696 us/op
+Iteration   8: 49.860 us/op
+Iteration   9: 49.742 us/op
+Iteration  10: 49.740 us/op
+
+# Run progress: 53.79% complete, ETA 00:15:44
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+55.637 us/op
+# Warmup Iteration   2: 49.950 us/op
+# Warmup Iteration   3: 49.922 us/op
+# Warmup Iteration   4: 49.845 us/op
+# Warmup Iteration   5: 49.750 us/op
+Iteration   1: 49.828 us/op
+Iteration   2: 49.709 us/op
+Iteration   3: 49.763 us/op
+Iteration   4: 49.706 us/op
+Iteration   5: 49.755 us/op
+Iteration   6: 49.729 us/op
+Iteration   7: 49.721 us/op
+Iteration   8: 49.844 us/op
+Iteration   9: 49.792 us/op
+Iteration  10: 49.740 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify":
+  49.874 ±(99.9%) 0.244 us/op [Average]
+  (min, avg, max) = (49.696, 49.874, 51.766), stdev = 0.366
+  CI (99.9%): [49.629, 50.118] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify
+# Parameters: (level = 87, provider = BC)
+
+# Run progress: 54.55% complete, ETA 00:15:29
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+161.886 us/op
+# Warmup Iteration   2: 159.611 us/op
+# Warmup Iteration   3: 156.151 us/op
+# Warmup Iteration   4: 158.114 us/op
+# Warmup Iteration   5: 156.009 us/op
+Iteration   1: 155.986 us/op
+Iteration   2: 155.880 us/op
+Iteration   3: 156.437 us/op
+Iteration   4: 155.884 us/op
+Iteration   5: 156.436 us/op
+Iteration   6: 156.777 us/op
+Iteration   7: 156.722 us/op
+Iteration   8: 157.352 us/op
+Iteration   9: 156.783 us/op
+Iteration  10: 156.983 us/op
+
+# Run progress: 55.30% complete, ETA 00:15:13
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+161.809 us/op
+# Warmup Iteration   2: 170.449 us/op
+# Warmup Iteration   3: 162.732 us/op
+# Warmup Iteration   4: 162.805 us/op
+# Warmup Iteration   5: 162.764 us/op
+Iteration   1: 162.956 us/op
+Iteration   2: 162.810 us/op
+Iteration   3: 163.235 us/op
+Iteration   4: 162.638 us/op
+Iteration   5: 162.573 us/op
+Iteration   6: 157.067 us/op
+Iteration   7: 156.865 us/op
+Iteration   8: 157.026 us/op
+Iteration   9: 156.904 us/op
+Iteration  10: 156.790 us/op
+
+# Run progress: 56.06% complete, ETA 00:14:58
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+161.658 us/op
+# Warmup Iteration   2: 160.627 us/op
+# Warmup Iteration   3: 159.880 us/op
+# Warmup Iteration   4: 157.653 us/op
+# Warmup Iteration   5: 157.816 us/op
+Iteration   1: 157.762 us/op
+Iteration   2: 158.117 us/op
+Iteration   3: 158.302 us/op
+Iteration   4: 157.853 us/op
+Iteration   5: 157.413 us/op
+Iteration   6: 156.714 us/op
+Iteration   7: 156.733 us/op
+Iteration   8: 156.676 us/op
+Iteration   9: 156.453 us/op
+Iteration  10: 156.534 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify":
+  157.889 ±(99.9%) 1.555 us/op [Average]
+  (min, avg, max) = (155.880, 157.889, 163.235), stdev = 2.327
+  CI (99.9%): [156.334, 159.443] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify
+# Parameters: (level = 87, provider = JDK)
+
+# Run progress: 56.82% complete, ETA 00:14:42
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+91.123 us/op
+# Warmup Iteration   2: 84.182 us/op
+# Warmup Iteration   3: 83.972 us/op
+# Warmup Iteration   4: 84.029 us/op
+# Warmup Iteration   5: 83.982 us/op
+Iteration   1: 81.841 us/op
+Iteration   2: 81.523 us/op
+Iteration   3: 81.288 us/op
+Iteration   4: 81.313 us/op
+Iteration   5: 81.562 us/op
+Iteration   6: 81.258 us/op
+Iteration   7: 84.445 us/op
+Iteration   8: 81.319 us/op
+Iteration   9: 81.299 us/op
+Iteration  10: 81.250 us/op
+
+# Run progress: 57.58% complete, ETA 00:14:27
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+88.728 us/op
+# Warmup Iteration   2: 82.359 us/op
+# Warmup Iteration   3: 81.284 us/op
+# Warmup Iteration   4: 81.323 us/op
+# Warmup Iteration   5: 81.328 us/op
+Iteration   1: 81.430 us/op
+Iteration   2: 81.501 us/op
+Iteration   3: 81.253 us/op
+Iteration   4: 81.360 us/op
+Iteration   5: 81.287 us/op
+Iteration   6: 81.211 us/op
+Iteration   7: 81.505 us/op
+Iteration   8: 81.171 us/op
+Iteration   9: 81.195 us/op
+Iteration  10: 81.162 us/op
+
+# Run progress: 58.33% complete, ETA 00:14:11
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+92.179 us/op
+# Warmup Iteration   2: 84.102 us/op
+# Warmup Iteration   3: 84.236 us/op
+# Warmup Iteration   4: 84.221 us/op
+# Warmup Iteration   5: 84.069 us/op
+Iteration   1: 82.230 us/op
+Iteration   2: 81.356 us/op
+Iteration   3: 81.580 us/op
+Iteration   4: 81.581 us/op
+Iteration   5: 81.685 us/op
+Iteration   6: 81.655 us/op
+Iteration   7: 81.330 us/op
+Iteration   8: 81.390 us/op
+Iteration   9: 81.853 us/op
+Iteration  10: 82.026 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.DsaBenchmark.verify":
+  81.562 ±(99.9%) 0.403 us/op [Average]
+  (min, avg, max) = (81.162, 81.562, 84.445), stdev = 0.603
+  CI (99.9%): [81.159, 81.965] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate
+# Parameters: (level = 512, provider = BC)
+
+# Run progress: 59.09% complete, ETA 00:13:56
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+29.909 us/op
+# Warmup Iteration   2: 28.634 us/op
+# Warmup Iteration   3: 26.932 us/op
+# Warmup Iteration   4: 26.852 us/op
+# Warmup Iteration   5: 26.867 us/op
+Iteration   1: 26.965 us/op
+Iteration   2: 26.873 us/op
+Iteration   3: 26.838 us/op
+Iteration   4: 26.863 us/op
+Iteration   5: 26.842 us/op
+Iteration   6: 26.918 us/op
+Iteration   7: 26.861 us/op
+Iteration   8: 26.874 us/op
+Iteration   9: 26.870 us/op
+Iteration  10: 26.847 us/op
+
+# Run progress: 59.85% complete, ETA 00:13:40
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+29.337 us/op
+# Warmup Iteration   2: 26.909 us/op
+# Warmup Iteration   3: 26.868 us/op
+# Warmup Iteration   4: 26.867 us/op
+# Warmup Iteration   5: 26.841 us/op
+Iteration   1: 26.888 us/op
+Iteration   2: 26.885 us/op
+Iteration   3: 26.891 us/op
+Iteration   4: 27.161 us/op
+Iteration   5: 26.903 us/op
+Iteration   6: 26.949 us/op
+Iteration   7: 26.888 us/op
+Iteration   8: 26.851 us/op
+Iteration   9: 26.861 us/op
+Iteration  10: 26.903 us/op
+
+# Run progress: 60.61% complete, ETA 00:13:25
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+29.976 us/op
+# Warmup Iteration   2: 26.910 us/op
+# Warmup Iteration   3: 26.884 us/op
+# Warmup Iteration   4: 26.873 us/op
+# Warmup Iteration   5: 27.747 us/op
+Iteration   1: 27.160 us/op
+Iteration   2: 26.879 us/op
+Iteration   3: 26.884 us/op
+Iteration   4: 26.900 us/op
+Iteration   5: 26.868 us/op
+Iteration   6: 26.905 us/op
+Iteration   7: 26.873 us/op
+Iteration   8: 26.872 us/op
+Iteration   9: 26.868 us/op
+Iteration  10: 26.871 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate":
+  26.900 ±(99.9%) 0.051 us/op [Average]
+  (min, avg, max) = (26.838, 26.900, 27.161), stdev = 0.076
+  CI (99.9%): [26.850, 26.951] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate
+# Parameters: (level = 512, provider = JDK)
+
+# Run progress: 61.36% complete, ETA 00:13:09
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+13.090 us/op
+# Warmup Iteration   2: 11.400 us/op
+# Warmup Iteration   3: 11.369 us/op
+# Warmup Iteration   4: 11.364 us/op
+# Warmup Iteration   5: 11.392 us/op
+Iteration   1: 11.362 us/op
+Iteration   2: 11.363 us/op
+Iteration   3: 11.356 us/op
+Iteration   4: 11.366 us/op
+Iteration   5: 11.380 us/op
+Iteration   6: 11.363 us/op
+Iteration   7: 11.364 us/op
+Iteration   8: 11.391 us/op
+Iteration   9: 11.349 us/op
+Iteration  10: 11.407 us/op
+
+# Run progress: 62.12% complete, ETA 00:12:54
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+13.083 us/op
+# Warmup Iteration   2: 11.410 us/op
+# Warmup Iteration   3: 11.376 us/op
+# Warmup Iteration   4: 11.380 us/op
+# Warmup Iteration   5: 11.436 us/op
+Iteration   1: 11.375 us/op
+Iteration   2: 11.370 us/op
+Iteration   3: 11.389 us/op
+Iteration   4: 11.370 us/op
+Iteration   5: 11.408 us/op
+Iteration   6: 11.374 us/op
+Iteration   7: 11.372 us/op
+Iteration   8: 11.379 us/op
+Iteration   9: 11.373 us/op
+Iteration  10: 11.383 us/op
+
+# Run progress: 62.88% complete, ETA 00:12:38
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+13.588 us/op
+# Warmup Iteration   2: 11.398 us/op
+# Warmup Iteration   3: 11.417 us/op
+# Warmup Iteration   4: 11.364 us/op
+# Warmup Iteration   5: 11.363 us/op
+Iteration   1: 11.369 us/op
+Iteration   2: 11.796 us/op
+Iteration   3: 11.383 us/op
+Iteration   4: 11.375 us/op
+Iteration   5: 11.386 us/op
+Iteration   6: 11.357 us/op
+Iteration   7: 11.362 us/op
+Iteration   8: 11.380 us/op
+Iteration   9: 11.475 us/op
+Iteration  10: 11.448 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate":
+  11.394 ±(99.9%) 0.054 us/op [Average]
+  (min, avg, max) = (11.349, 11.394, 11.796), stdev = 0.080
+  CI (99.9%): [11.340, 11.448] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate
+# Parameters: (level = 768, provider = BC)
+
+# Run progress: 63.64% complete, ETA 00:12:22
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+45.151 us/op
+# Warmup Iteration   2: 41.419 us/op
+# Warmup Iteration   3: 41.557 us/op
+# Warmup Iteration   4: 41.502 us/op
+# Warmup Iteration   5: 41.407 us/op
+Iteration   1: 41.446 us/op
+Iteration   2: 41.382 us/op
+Iteration   3: 41.396 us/op
+Iteration   4: 41.513 us/op
+Iteration   5: 41.404 us/op
+Iteration   6: 41.395 us/op
+Iteration   7: 41.390 us/op
+Iteration   8: 41.390 us/op
+Iteration   9: 41.437 us/op
+Iteration  10: 41.417 us/op
+
+# Run progress: 64.39% complete, ETA 00:12:07
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+45.056 us/op
+# Warmup Iteration   2: 41.413 us/op
+# Warmup Iteration   3: 41.413 us/op
+# Warmup Iteration   4: 41.455 us/op
+# Warmup Iteration   5: 41.434 us/op
+Iteration   1: 41.415 us/op
+Iteration   2: 41.422 us/op
+Iteration   3: 41.406 us/op
+Iteration   4: 41.529 us/op
+Iteration   5: 41.411 us/op
+Iteration   6: 41.406 us/op
+Iteration   7: 41.503 us/op
+Iteration   8: 42.894 us/op
+Iteration   9: 41.840 us/op
+Iteration  10: 41.414 us/op
+
+# Run progress: 65.15% complete, ETA 00:11:51
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+44.957 us/op
+# Warmup Iteration   2: 41.516 us/op
+# Warmup Iteration   3: 41.531 us/op
+# Warmup Iteration   4: 41.526 us/op
+# Warmup Iteration   5: 41.497 us/op
+Iteration   1: 41.505 us/op
+Iteration   2: 41.486 us/op
+Iteration   3: 41.466 us/op
+Iteration   4: 41.587 us/op
+Iteration   5: 41.478 us/op
+Iteration   6: 41.465 us/op
+Iteration   7: 41.500 us/op
+Iteration   8: 41.459 us/op
+Iteration   9: 41.511 us/op
+Iteration  10: 41.447 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate":
+  41.510 ±(99.9%) 0.184 us/op [Average]
+  (min, avg, max) = (41.382, 41.510, 42.894), stdev = 0.276
+  CI (99.9%): [41.326, 41.694] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate
+# Parameters: (level = 768, provider = JDK)
+
+# Run progress: 65.91% complete, ETA 00:11:36
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+20.530 us/op
+# Warmup Iteration   2: 17.375 us/op
+# Warmup Iteration   3: 17.369 us/op
+# Warmup Iteration   4: 17.347 us/op
+# Warmup Iteration   5: 17.337 us/op
+Iteration   1: 17.337 us/op
+Iteration   2: 17.340 us/op
+Iteration   3: 17.371 us/op
+Iteration   4: 17.356 us/op
+Iteration   5: 17.332 us/op
+Iteration   6: 17.333 us/op
+Iteration   7: 17.326 us/op
+Iteration   8: 17.431 us/op
+Iteration   9: 17.405 us/op
+Iteration  10: 17.333 us/op
+
+# Run progress: 66.67% complete, ETA 00:11:20
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+20.418 us/op
+# Warmup Iteration   2: 17.480 us/op
+# Warmup Iteration   3: 17.520 us/op
+# Warmup Iteration   4: 17.427 us/op
+# Warmup Iteration   5: 18.105 us/op
+Iteration   1: 17.413 us/op
+Iteration   2: 17.424 us/op
+Iteration   3: 17.443 us/op
+Iteration   4: 17.425 us/op
+Iteration   5: 17.427 us/op
+Iteration   6: 17.420 us/op
+Iteration   7: 17.422 us/op
+Iteration   8: 17.477 us/op
+Iteration   9: 17.425 us/op
+Iteration  10: 17.420 us/op
+
+# Run progress: 67.42% complete, ETA 00:11:05
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+20.117 us/op
+# Warmup Iteration   2: 17.631 us/op
+# Warmup Iteration   3: 17.634 us/op
+# Warmup Iteration   4: 17.594 us/op
+# Warmup Iteration   5: 17.586 us/op
+Iteration   1: 17.596 us/op
+Iteration   2: 17.602 us/op
+Iteration   3: 17.626 us/op
+Iteration   4: 17.583 us/op
+Iteration   5: 17.578 us/op
+Iteration   6: 17.579 us/op
+Iteration   7: 17.582 us/op
+Iteration   8: 17.714 us/op
+Iteration   9: 17.591 us/op
+Iteration  10: 17.579 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate":
+  17.463 ±(99.9%) 0.073 us/op [Average]
+  (min, avg, max) = (17.326, 17.463, 17.714), stdev = 0.110
+  CI (99.9%): [17.390, 17.536] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate
+# Parameters: (level = 1024, provider = BC)
+
+# Run progress: 68.18% complete, ETA 00:10:49
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+65.282 us/op
+# Warmup Iteration   2: 60.266 us/op
+# Warmup Iteration   3: 60.124 us/op
+# Warmup Iteration   4: 60.021 us/op
+# Warmup Iteration   5: 60.000 us/op
+Iteration   1: 60.027 us/op
+Iteration   2: 60.030 us/op
+Iteration   3: 60.175 us/op
+Iteration   4: 59.965 us/op
+Iteration   5: 60.005 us/op
+Iteration   6: 60.223 us/op
+Iteration   7: 60.276 us/op
+Iteration   8: 60.208 us/op
+Iteration   9: 59.896 us/op
+Iteration  10: 59.946 us/op
+
+# Run progress: 68.94% complete, ETA 00:10:34
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+64.804 us/op
+# Warmup Iteration   2: 60.113 us/op
+# Warmup Iteration   3: 59.865 us/op
+# Warmup Iteration   4: 59.836 us/op
+# Warmup Iteration   5: 59.840 us/op
+Iteration   1: 62.211 us/op
+Iteration   2: 60.135 us/op
+Iteration   3: 59.911 us/op
+Iteration   4: 59.878 us/op
+Iteration   5: 59.820 us/op
+Iteration   6: 59.859 us/op
+Iteration   7: 60.827 us/op
+Iteration   8: 59.844 us/op
+Iteration   9: 59.842 us/op
+Iteration  10: 59.883 us/op
+
+# Run progress: 69.70% complete, ETA 00:10:18
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+65.315 us/op
+# Warmup Iteration   2: 60.281 us/op
+# Warmup Iteration   3: 60.067 us/op
+# Warmup Iteration   4: 60.298 us/op
+# Warmup Iteration   5: 60.080 us/op
+Iteration   1: 60.016 us/op
+Iteration   2: 60.356 us/op
+Iteration   3: 60.210 us/op
+Iteration   4: 60.021 us/op
+Iteration   5: 60.136 us/op
+Iteration   6: 60.076 us/op
+Iteration   7: 60.229 us/op
+Iteration   8: 60.043 us/op
+Iteration   9: 60.103 us/op
+Iteration  10: 60.028 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate":
+  60.139 ±(99.9%) 0.294 us/op [Average]
+  (min, avg, max) = (59.820, 60.139, 62.211), stdev = 0.440
+  CI (99.9%): [59.845, 60.434] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate
+# Parameters: (level = 1024, provider = JDK)
+
+# Run progress: 70.45% complete, ETA 00:10:03
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+28.795 us/op
+# Warmup Iteration   2: 25.306 us/op
+# Warmup Iteration   3: 25.250 us/op
+# Warmup Iteration   4: 25.277 us/op
+# Warmup Iteration   5: 25.243 us/op
+Iteration   1: 25.288 us/op
+Iteration   2: 25.305 us/op
+Iteration   3: 25.269 us/op
+Iteration   4: 25.283 us/op
+Iteration   5: 25.263 us/op
+Iteration   6: 26.626 us/op
+Iteration   7: 25.300 us/op
+Iteration   8: 25.284 us/op
+Iteration   9: 25.303 us/op
+Iteration  10: 25.263 us/op
+
+# Run progress: 71.21% complete, ETA 00:09:47
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+28.950 us/op
+# Warmup Iteration   2: 25.203 us/op
+# Warmup Iteration   3: 25.152 us/op
+# Warmup Iteration   4: 25.139 us/op
+# Warmup Iteration   5: 25.155 us/op
+Iteration   1: 25.200 us/op
+Iteration   2: 25.230 us/op
+Iteration   3: 25.121 us/op
+Iteration   4: 25.207 us/op
+Iteration   5: 25.122 us/op
+Iteration   6: 25.194 us/op
+Iteration   7: 25.141 us/op
+Iteration   8: 25.143 us/op
+Iteration   9: 25.153 us/op
+Iteration  10: 25.140 us/op
+
+# Run progress: 71.97% complete, ETA 00:09:32
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+29.064 us/op
+# Warmup Iteration   2: 25.356 us/op
+# Warmup Iteration   3: 25.276 us/op
+# Warmup Iteration   4: 25.283 us/op
+# Warmup Iteration   5: 25.375 us/op
+Iteration   1: 25.373 us/op
+Iteration   2: 25.294 us/op
+Iteration   3: 25.258 us/op
+Iteration   4: 25.302 us/op
+Iteration   5: 25.291 us/op
+Iteration   6: 25.481 us/op
+Iteration   7: 25.270 us/op
+Iteration   8: 25.283 us/op
+Iteration   9: 25.260 us/op
+Iteration  10: 25.299 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.decapsulate":
+  25.298 ±(99.9%) 0.175 us/op [Average]
+  (min, avg, max) = (25.121, 25.298, 26.626), stdev = 0.263
+  CI (99.9%): [25.123, 25.474] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate
+# Parameters: (level = 512, provider = BC)
+
+# Run progress: 72.73% complete, ETA 00:09:16
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+23.699 us/op
+# Warmup Iteration   2: 22.292 us/op
+# Warmup Iteration   3: 21.420 us/op
+# Warmup Iteration   4: 21.397 us/op
+# Warmup Iteration   5: 21.403 us/op
+Iteration   1: 21.447 us/op
+Iteration   2: 21.391 us/op
+Iteration   3: 21.381 us/op
+Iteration   4: 21.356 us/op
+Iteration   5: 21.392 us/op
+Iteration   6: 21.412 us/op
+Iteration   7: 21.369 us/op
+Iteration   8: 21.381 us/op
+Iteration   9: 21.388 us/op
+Iteration  10: 21.383 us/op
+
+# Run progress: 73.48% complete, ETA 00:09:01
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+22.994 us/op
+# Warmup Iteration   2: 20.875 us/op
+# Warmup Iteration   3: 20.833 us/op
+# Warmup Iteration   4: 20.828 us/op
+# Warmup Iteration   5: 20.838 us/op
+Iteration   1: 20.875 us/op
+Iteration   2: 20.853 us/op
+Iteration   3: 20.811 us/op
+Iteration   4: 20.811 us/op
+Iteration   5: 20.943 us/op
+Iteration   6: 20.849 us/op
+Iteration   7: 20.824 us/op
+Iteration   8: 20.832 us/op
+Iteration   9: 20.829 us/op
+Iteration  10: 20.851 us/op
+
+# Run progress: 74.24% complete, ETA 00:08:45
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+22.910 us/op
+# Warmup Iteration   2: 20.904 us/op
+# Warmup Iteration   3: 20.871 us/op
+# Warmup Iteration   4: 20.852 us/op
+# Warmup Iteration   5: 20.882 us/op
+Iteration   1: 20.851 us/op
+Iteration   2: 20.911 us/op
+Iteration   3: 20.832 us/op
+Iteration   4: 20.858 us/op
+Iteration   5: 20.910 us/op
+Iteration   6: 20.888 us/op
+Iteration   7: 20.839 us/op
+Iteration   8: 20.836 us/op
+Iteration   9: 20.787 us/op
+Iteration  10: 20.744 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate":
+  21.028 ±(99.9%) 0.176 us/op [Average]
+  (min, avg, max) = (20.744, 21.028, 21.447), stdev = 0.263
+  CI (99.9%): [20.852, 21.204] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate
+# Parameters: (level = 512, provider = JDK)
+
+# Run progress: 75.00% complete, ETA 00:08:30
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+10.255 us/op
+# Warmup Iteration   2: 8.827 us/op
+# Warmup Iteration   3: 8.800 us/op
+# Warmup Iteration   4: 9.156 us/op
+# Warmup Iteration   5: 8.803 us/op
+Iteration   1: 8.804 us/op
+Iteration   2: 8.811 us/op
+Iteration   3: 8.807 us/op
+Iteration   4: 8.892 us/op
+Iteration   5: 8.831 us/op
+Iteration   6: 8.801 us/op
+Iteration   7: 8.803 us/op
+Iteration   8: 8.803 us/op
+Iteration   9: 8.816 us/op
+Iteration  10: 8.831 us/op
+
+# Run progress: 75.76% complete, ETA 00:08:14
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+10.192 us/op
+# Warmup Iteration   2: 8.764 us/op
+# Warmup Iteration   3: 8.734 us/op
+# Warmup Iteration   4: 8.737 us/op
+# Warmup Iteration   5: 8.758 us/op
+Iteration   1: 8.734 us/op
+Iteration   2: 8.737 us/op
+Iteration   3: 8.743 us/op
+Iteration   4: 8.737 us/op
+Iteration   5: 8.739 us/op
+Iteration   6: 8.733 us/op
+Iteration   7: 8.868 us/op
+Iteration   8: 8.729 us/op
+Iteration   9: 8.736 us/op
+Iteration  10: 8.778 us/op
+
+# Run progress: 76.52% complete, ETA 00:07:59
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+10.236 us/op
+# Warmup Iteration   2: 8.722 us/op
+# Warmup Iteration   3: 8.711 us/op
+# Warmup Iteration   4: 8.725 us/op
+# Warmup Iteration   5: 8.702 us/op
+Iteration   1: 8.703 us/op
+Iteration   2: 8.697 us/op
+Iteration   3: 8.892 us/op
+Iteration   4: 9.247 us/op
+Iteration   5: 8.761 us/op
+Iteration   6: 8.722 us/op
+Iteration   7: 8.703 us/op
+Iteration   8: 8.717 us/op
+Iteration   9: 8.732 us/op
+Iteration  10: 8.704 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate":
+  8.787 ±(99.9%) 0.069 us/op [Average]
+  (min, avg, max) = (8.697, 8.787, 9.247), stdev = 0.103
+  CI (99.9%): [8.718, 8.856] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate
+# Parameters: (level = 768, provider = BC)
+
+# Run progress: 77.27% complete, ETA 00:07:44
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+36.046 us/op
+# Warmup Iteration   2: 33.319 us/op
+# Warmup Iteration   3: 33.316 us/op
+# Warmup Iteration   4: 33.285 us/op
+# Warmup Iteration   5: 33.228 us/op
+Iteration   1: 33.319 us/op
+Iteration   2: 33.294 us/op
+Iteration   3: 33.247 us/op
+Iteration   4: 33.629 us/op
+Iteration   5: 33.239 us/op
+Iteration   6: 33.299 us/op
+Iteration   7: 33.229 us/op
+Iteration   8: 33.240 us/op
+Iteration   9: 33.260 us/op
+Iteration  10: 33.297 us/op
+
+# Run progress: 78.03% complete, ETA 00:07:28
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+35.914 us/op
+# Warmup Iteration   2: 33.187 us/op
+# Warmup Iteration   3: 33.253 us/op
+# Warmup Iteration   4: 33.236 us/op
+# Warmup Iteration   5: 33.227 us/op
+Iteration   1: 34.427 us/op
+Iteration   2: 32.938 us/op
+Iteration   3: 33.735 us/op
+Iteration   4: 33.196 us/op
+Iteration   5: 33.256 us/op
+Iteration   6: 33.149 us/op
+Iteration   7: 33.162 us/op
+Iteration   8: 33.150 us/op
+Iteration   9: 33.180 us/op
+Iteration  10: 33.143 us/op
+
+# Run progress: 78.79% complete, ETA 00:07:13
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+36.702 us/op
+# Warmup Iteration   2: 33.915 us/op
+# Warmup Iteration   3: 33.944 us/op
+# Warmup Iteration   4: 33.851 us/op
+# Warmup Iteration   5: 33.836 us/op
+Iteration   1: 33.847 us/op
+Iteration   2: 33.852 us/op
+Iteration   3: 34.277 us/op
+Iteration   4: 34.477 us/op
+Iteration   5: 33.836 us/op
+Iteration   6: 34.179 us/op
+Iteration   7: 33.879 us/op
+Iteration   8: 33.837 us/op
+Iteration   9: 33.996 us/op
+Iteration  10: 33.842 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate":
+  33.547 ±(99.9%) 0.288 us/op [Average]
+  (min, avg, max) = (32.938, 33.547, 34.477), stdev = 0.432
+  CI (99.9%): [33.259, 33.835] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate
+# Parameters: (level = 768, provider = JDK)
+
+# Run progress: 79.55% complete, ETA 00:06:57
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+15.465 us/op
+# Warmup Iteration   2: 13.564 us/op
+# Warmup Iteration   3: 13.587 us/op
+# Warmup Iteration   4: 13.520 us/op
+# Warmup Iteration   5: 13.519 us/op
+Iteration   1: 13.522 us/op
+Iteration   2: 14.163 us/op
+Iteration   3: 13.539 us/op
+Iteration   4: 13.531 us/op
+Iteration   5: 13.531 us/op
+Iteration   6: 13.524 us/op
+Iteration   7: 13.539 us/op
+Iteration   8: 13.537 us/op
+Iteration   9: 13.528 us/op
+Iteration  10: 13.519 us/op
+
+# Run progress: 80.30% complete, ETA 00:06:42
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+15.873 us/op
+# Warmup Iteration   2: 13.532 us/op
+# Warmup Iteration   3: 13.512 us/op
+# Warmup Iteration   4: 13.502 us/op
+# Warmup Iteration   5: 13.494 us/op
+Iteration   1: 13.514 us/op
+Iteration   2: 13.501 us/op
+Iteration   3: 13.500 us/op
+Iteration   4: 13.488 us/op
+Iteration   5: 13.495 us/op
+Iteration   6: 13.505 us/op
+Iteration   7: 13.493 us/op
+Iteration   8: 13.540 us/op
+Iteration   9: 13.501 us/op
+Iteration  10: 13.493 us/op
+
+# Run progress: 81.06% complete, ETA 00:06:26
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+15.497 us/op
+# Warmup Iteration   2: 13.531 us/op
+# Warmup Iteration   3: 13.524 us/op
+# Warmup Iteration   4: 13.484 us/op
+# Warmup Iteration   5: 13.471 us/op
+Iteration   1: 13.551 us/op
+Iteration   2: 14.004 us/op
+Iteration   3: 13.495 us/op
+Iteration   4: 13.477 us/op
+Iteration   5: 13.486 us/op
+Iteration   6: 13.511 us/op
+Iteration   7: 13.481 us/op
+Iteration   8: 13.507 us/op
+Iteration   9: 13.488 us/op
+Iteration  10: 13.492 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate":
+  13.548 ±(99.9%) 0.099 us/op [Average]
+  (min, avg, max) = (13.477, 13.548, 14.163), stdev = 0.148
+  CI (99.9%): [13.449, 13.647] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate
+# Parameters: (level = 1024, provider = BC)
+
+# Run progress: 81.82% complete, ETA 00:06:11
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+53.840 us/op
+# Warmup Iteration   2: 49.579 us/op
+# Warmup Iteration   3: 49.516 us/op
+# Warmup Iteration   4: 49.560 us/op
+# Warmup Iteration   5: 49.608 us/op
+Iteration   1: 50.016 us/op
+Iteration   2: 50.592 us/op
+Iteration   3: 49.717 us/op
+Iteration   4: 49.607 us/op
+Iteration   5: 49.566 us/op
+Iteration   6: 49.547 us/op
+Iteration   7: 49.674 us/op
+Iteration   8: 49.584 us/op
+Iteration   9: 49.554 us/op
+Iteration  10: 49.610 us/op
+
+# Run progress: 82.58% complete, ETA 00:05:55
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+53.796 us/op
+# Warmup Iteration   2: 49.814 us/op
+# Warmup Iteration   3: 49.553 us/op
+# Warmup Iteration   4: 49.474 us/op
+# Warmup Iteration   5: 49.494 us/op
+Iteration   1: 50.143 us/op
+Iteration   2: 49.639 us/op
+Iteration   3: 49.522 us/op
+Iteration   4: 49.475 us/op
+Iteration   5: 49.470 us/op
+Iteration   6: 49.570 us/op
+Iteration   7: 49.541 us/op
+Iteration   8: 49.499 us/op
+Iteration   9: 49.467 us/op
+Iteration  10: 49.461 us/op
+
+# Run progress: 83.33% complete, ETA 00:05:40
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+56.368 us/op
+# Warmup Iteration   2: 49.778 us/op
+# Warmup Iteration   3: 49.535 us/op
+# Warmup Iteration   4: 49.535 us/op
+# Warmup Iteration   5: 49.527 us/op
+Iteration   1: 49.558 us/op
+Iteration   2: 49.599 us/op
+Iteration   3: 49.516 us/op
+Iteration   4: 49.531 us/op
+Iteration   5: 49.512 us/op
+Iteration   6: 49.696 us/op
+Iteration   7: 49.489 us/op
+Iteration   8: 49.488 us/op
+Iteration   9: 49.534 us/op
+Iteration  10: 49.591 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate":
+  49.626 ±(99.9%) 0.157 us/op [Average]
+  (min, avg, max) = (49.461, 49.626, 50.592), stdev = 0.236
+  CI (99.9%): [49.468, 49.783] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate
+# Parameters: (level = 1024, provider = JDK)
+
+# Run progress: 84.09% complete, ETA 00:05:24
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+22.543 us/op
+# Warmup Iteration   2: 19.840 us/op
+# Warmup Iteration   3: 19.719 us/op
+# Warmup Iteration   4: 19.731 us/op
+# Warmup Iteration   5: 20.020 us/op
+Iteration   1: 19.729 us/op
+Iteration   2: 19.777 us/op
+Iteration   3: 19.719 us/op
+Iteration   4: 19.727 us/op
+Iteration   5: 19.752 us/op
+Iteration   6: 19.720 us/op
+Iteration   7: 19.778 us/op
+Iteration   8: 19.722 us/op
+Iteration   9: 19.710 us/op
+Iteration  10: 19.720 us/op
+
+# Run progress: 84.85% complete, ETA 00:05:09
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+22.665 us/op
+# Warmup Iteration   2: 19.781 us/op
+# Warmup Iteration   3: 20.554 us/op
+# Warmup Iteration   4: 19.725 us/op
+# Warmup Iteration   5: 19.732 us/op
+Iteration   1: 19.788 us/op
+Iteration   2: 19.736 us/op
+Iteration   3: 19.709 us/op
+Iteration   4: 19.728 us/op
+Iteration   5: 19.727 us/op
+Iteration   6: 19.725 us/op
+Iteration   7: 19.734 us/op
+Iteration   8: 19.738 us/op
+Iteration   9: 19.724 us/op
+Iteration  10: 19.723 us/op
+
+# Run progress: 85.61% complete, ETA 00:04:53
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+22.542 us/op
+# Warmup Iteration   2: 19.761 us/op
+# Warmup Iteration   3: 19.727 us/op
+# Warmup Iteration   4: 19.891 us/op
+# Warmup Iteration   5: 19.721 us/op
+Iteration   1: 19.712 us/op
+Iteration   2: 19.725 us/op
+Iteration   3: 19.727 us/op
+Iteration   4: 19.727 us/op
+Iteration   5: 19.723 us/op
+Iteration   6: 19.702 us/op
+Iteration   7: 19.711 us/op
+Iteration   8: 19.728 us/op
+Iteration   9: 19.736 us/op
+Iteration  10: 20.294 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.encapsulate":
+  19.749 ±(99.9%) 0.070 us/op [Average]
+  (min, avg, max) = (19.702, 19.749, 20.294), stdev = 0.105
+  CI (99.9%): [19.679, 19.819] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen
+# Parameters: (level = 512, provider = BC)
+
+# Run progress: 86.36% complete, ETA 00:04:38
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+21.430 us/op
+# Warmup Iteration   2: 20.452 us/op
+# Warmup Iteration   3: 20.313 us/op
+# Warmup Iteration   4: 20.277 us/op
+# Warmup Iteration   5: 20.256 us/op
+Iteration   1: 20.250 us/op
+Iteration   2: 20.265 us/op
+Iteration   3: 20.968 us/op
+Iteration   4: 20.273 us/op
+Iteration   5: 20.256 us/op
+Iteration   6: 20.246 us/op
+Iteration   7: 20.246 us/op
+Iteration   8: 20.299 us/op
+Iteration   9: 20.295 us/op
+Iteration  10: 20.251 us/op
+
+# Run progress: 87.12% complete, ETA 00:04:22
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+21.178 us/op
+# Warmup Iteration   2: 20.083 us/op
+# Warmup Iteration   3: 20.115 us/op
+# Warmup Iteration   4: 20.366 us/op
+# Warmup Iteration   5: 20.056 us/op
+Iteration   1: 20.045 us/op
+Iteration   2: 20.055 us/op
+Iteration   3: 20.060 us/op
+Iteration   4: 20.082 us/op
+Iteration   5: 20.037 us/op
+Iteration   6: 20.072 us/op
+Iteration   7: 20.048 us/op
+Iteration   8: 20.110 us/op
+Iteration   9: 20.037 us/op
+Iteration  10: 20.059 us/op
+
+# Run progress: 87.88% complete, ETA 00:04:07
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+20.221 us/op
+# Warmup Iteration   2: 18.848 us/op
+# Warmup Iteration   3: 18.820 us/op
+# Warmup Iteration   4: 18.791 us/op
+# Warmup Iteration   5: 18.799 us/op
+Iteration   1: 18.800 us/op
+Iteration   2: 18.828 us/op
+Iteration   3: 18.889 us/op
+Iteration   4: 18.783 us/op
+Iteration   5: 19.526 us/op
+Iteration   6: 18.770 us/op
+Iteration   7: 18.802 us/op
+Iteration   8: 18.809 us/op
+Iteration   9: 18.800 us/op
+Iteration  10: 18.778 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen":
+  19.758 ±(99.9%) 0.446 us/op [Average]
+  (min, avg, max) = (18.770, 19.758, 20.968), stdev = 0.667
+  CI (99.9%): [19.312, 20.204] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen
+# Parameters: (level = 512, provider = JDK)
+
+# Run progress: 88.64% complete, ETA 00:03:51
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+11.016 us/op
+# Warmup Iteration   2: 9.874 us/op
+# Warmup Iteration   3: 10.037 us/op
+# Warmup Iteration   4: 9.816 us/op
+# Warmup Iteration   5: 10.038 us/op
+Iteration   1: 9.823 us/op
+Iteration   2: 9.850 us/op
+Iteration   3: 9.835 us/op
+Iteration   4: 9.820 us/op
+Iteration   5: 9.849 us/op
+Iteration   6: 9.817 us/op
+Iteration   7: 9.851 us/op
+Iteration   8: 9.820 us/op
+Iteration   9: 9.815 us/op
+Iteration  10: 9.811 us/op
+
+# Run progress: 89.39% complete, ETA 00:03:36
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+11.812 us/op
+# Warmup Iteration   2: 9.869 us/op
+# Warmup Iteration   3: 9.855 us/op
+# Warmup Iteration   4: 9.948 us/op
+# Warmup Iteration   5: 9.811 us/op
+Iteration   1: 9.796 us/op
+Iteration   2: 9.796 us/op
+Iteration   3: 9.812 us/op
+Iteration   4: 9.826 us/op
+Iteration   5: 9.812 us/op
+Iteration   6: 9.803 us/op
+Iteration   7: 9.797 us/op
+Iteration   8: 9.793 us/op
+Iteration   9: 9.817 us/op
+Iteration  10: 9.796 us/op
+
+# Run progress: 90.15% complete, ETA 00:03:23
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+11.052 us/op
+# Warmup Iteration   2: 9.815 us/op
+# Warmup Iteration   3: 9.807 us/op
+# Warmup Iteration   4: 9.813 us/op
+# Warmup Iteration   5: 9.784 us/op
+Iteration   1: 9.803 us/op
+Iteration   2: 9.804 us/op
+Iteration   3: 9.814 us/op
+Iteration   4: 10.323 us/op
+Iteration   5: 9.819 us/op
+Iteration   6: 9.803 us/op
+Iteration   7: 9.802 us/op
+Iteration   8: 9.810 us/op
+Iteration   9: 9.828 us/op
+Iteration  10: 9.801 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen":
+  9.831 ±(99.9%) 0.063 us/op [Average]
+  (min, avg, max) = (9.793, 9.831, 10.323), stdev = 0.094
+  CI (99.9%): [9.768, 9.894] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen
+# Parameters: (level = 768, provider = BC)
+
+# Run progress: 90.91% complete, ETA 00:03:07
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+34.680 us/op
+# Warmup Iteration   2: 32.013 us/op
+# Warmup Iteration   3: 31.823 us/op
+# Warmup Iteration   4: 31.821 us/op
+# Warmup Iteration   5: 31.821 us/op
+Iteration   1: 31.811 us/op
+Iteration   2: 33.002 us/op
+Iteration   3: 31.809 us/op
+Iteration   4: 31.828 us/op
+Iteration   5: 31.807 us/op
+Iteration   6: 31.867 us/op
+Iteration   7: 31.942 us/op
+Iteration   8: 31.831 us/op
+Iteration   9: 31.854 us/op
+Iteration  10: 31.805 us/op
+
+# Run progress: 91.67% complete, ETA 00:02:54
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+34.188 us/op
+# Warmup Iteration   2: 31.872 us/op
+# Warmup Iteration   3: 31.738 us/op
+# Warmup Iteration   4: 31.775 us/op
+# Warmup Iteration   5: 31.731 us/op
+Iteration   1: 31.767 us/op
+Iteration   2: 31.749 us/op
+Iteration   3: 31.748 us/op
+Iteration   4: 31.769 us/op
+Iteration   5: 31.734 us/op
+Iteration   6: 32.002 us/op
+Iteration   7: 31.995 us/op
+Iteration   8: 31.769 us/op
+Iteration   9: 31.751 us/op
+Iteration  10: 31.758 us/op
+
+# Run progress: 92.42% complete, ETA 00:02:38
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+34.145 us/op
+# Warmup Iteration   2: 31.859 us/op
+# Warmup Iteration   3: 31.803 us/op
+# Warmup Iteration   4: 31.822 us/op
+# Warmup Iteration   5: 31.977 us/op
+Iteration   1: 31.914 us/op
+Iteration   2: 31.778 us/op
+Iteration   3: 31.771 us/op
+Iteration   4: 32.997 us/op
+Iteration   5: 31.758 us/op
+Iteration   6: 31.895 us/op
+Iteration   7: 31.765 us/op
+Iteration   8: 31.806 us/op
+Iteration   9: 31.771 us/op
+Iteration  10: 31.801 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen":
+  31.895 ±(99.9%) 0.206 us/op [Average]
+  (min, avg, max) = (31.734, 31.895, 33.002), stdev = 0.308
+  CI (99.9%): [31.689, 32.101] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen
+# Parameters: (level = 768, provider = JDK)
+
+# Run progress: 93.18% complete, ETA 00:02:22
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+16.996 us/op
+# Warmup Iteration   2: 15.330 us/op
+# Warmup Iteration   3: 15.280 us/op
+# Warmup Iteration   4: 15.381 us/op
+# Warmup Iteration   5: 15.455 us/op
+Iteration   1: 15.395 us/op
+Iteration   2: 15.408 us/op
+Iteration   3: 15.410 us/op
+Iteration   4: 15.409 us/op
+Iteration   5: 15.441 us/op
+Iteration   6: 15.612 us/op
+Iteration   7: 15.420 us/op
+Iteration   8: 15.428 us/op
+Iteration   9: 15.429 us/op
+Iteration  10: 15.452 us/op
+
+# Run progress: 93.94% complete, ETA 00:02:06
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+17.059 us/op
+# Warmup Iteration   2: 15.357 us/op
+# Warmup Iteration   3: 15.211 us/op
+# Warmup Iteration   4: 15.374 us/op
+# Warmup Iteration   5: 15.416 us/op
+Iteration   1: 15.378 us/op
+Iteration   2: 15.385 us/op
+Iteration   3: 15.372 us/op
+Iteration   4: 15.389 us/op
+Iteration   5: 15.497 us/op
+Iteration   6: 15.419 us/op
+Iteration   7: 15.388 us/op
+Iteration   8: 22.124 us/op
+Iteration   9: 16.969 us/op
+Iteration  10: 15.259 us/op
+
+# Run progress: 94.70% complete, ETA 00:01:51
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+17.277 us/op
+# Warmup Iteration   2: 15.200 us/op
+# Warmup Iteration   3: 15.119 us/op
+# Warmup Iteration   4: 17.445 us/op
+# Warmup Iteration   5: 16.125 us/op
+Iteration   1: 15.928 us/op
+Iteration   2: 15.178 us/op
+Iteration   3: 15.654 us/op
+Iteration   4: 17.520 us/op
+Iteration   5: 17.823 us/op
+Iteration   6: 18.375 us/op
+Iteration   7: 18.955 us/op
+Iteration   8: 19.945 us/op
+Iteration   9: 19.591 us/op
+Iteration  10: 20.392 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen":
+  16.532 ±(99.9%) 1.270 us/op [Average]
+  (min, avg, max) = (15.178, 16.532, 22.124), stdev = 1.900
+  CI (99.9%): [15.262, 17.801] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen
+# Parameters: (level = 1024, provider = BC)
+
+# Run progress: 95.45% complete, ETA 00:01:35
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+57.029 us/op
+# Warmup Iteration   2: 62.446 us/op
+# Warmup Iteration   3: 52.856 us/op
+# Warmup Iteration   4: 53.092 us/op
+# Warmup Iteration   5: 53.559 us/op
+Iteration   1: 57.394 us/op
+Iteration   2: 136.924 us/op
+Iteration   3: 108.936 us/op
+Iteration   4: 89.980 us/op
+Iteration   5: 70.993 us/op
+Iteration   6: 70.279 us/op
+Iteration   7: 69.157 us/op
+Iteration   8: 69.449 us/op
+Iteration   9: 70.024 us/op
+Iteration  10: 69.971 us/op
+
+# Run progress: 96.21% complete, ETA 00:01:19
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+64.026 us/op
+# Warmup Iteration   2: 50.133 us/op
+# Warmup Iteration   3: 57.171 us/op
+# Warmup Iteration   4: 48.051 us/op
+# Warmup Iteration   5: 48.106 us/op
+Iteration   1: 49.535 us/op
+Iteration   2: 50.215 us/op
+Iteration   3: 51.293 us/op
+Iteration   4: 49.535 us/op
+Iteration   5: 92.831 us/op
+Iteration   6: 73.016 us/op
+Iteration   7: 129.558 us/op
+Iteration   8: 64.110 us/op
+Iteration   9: 53.286 us/op
+Iteration  10: 55.939 us/op
+
+# Run progress: 96.97% complete, ETA 00:01:03
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+67.630 us/op
+# Warmup Iteration   2: 57.638 us/op
+# Warmup Iteration   3: 58.036 us/op
+# Warmup Iteration   4: 55.947 us/op
+# Warmup Iteration   5: 56.260 us/op
+Iteration   1: 55.884 us/op
+Iteration   2: 55.238 us/op
+Iteration   3: 54.358 us/op
+Iteration   4: 58.395 us/op
+Iteration   5: 54.690 us/op
+Iteration   6: 55.728 us/op
+Iteration   7: 55.900 us/op
+Iteration   8: 54.041 us/op
+Iteration   9: 53.719 us/op
+Iteration  10: 53.205 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen":
+  67.786 ±(99.9%) 15.099 us/op [Average]
+  (min, avg, max) = (49.535, 67.786, 136.924), stdev = 22.600
+  CI (99.9%): [52.687, 82.885] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 26.0.1, OpenJDK 64-Bit Server VM, 26.0.1
+# VM invoker: /opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen
+# Parameters: (level = 1024, provider = JDK)
+
+# Run progress: 97.73% complete, ETA 00:00:47
+# Fork: 1 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+33.966 us/op
+# Warmup Iteration   2: 24.817 us/op
+# Warmup Iteration   3: 25.193 us/op
+# Warmup Iteration   4: 24.308 us/op
+# Warmup Iteration   5: 24.053 us/op
+Iteration   1: 24.145 us/op
+Iteration   2: 24.616 us/op
+Iteration   3: 24.772 us/op
+Iteration   4: 24.241 us/op
+Iteration   5: 26.354 us/op
+Iteration   6: 24.635 us/op
+Iteration   7: 28.059 us/op
+Iteration   8: 27.274 us/op
+Iteration   9: 27.563 us/op
+Iteration  10: 31.010 us/op
+
+# Run progress: 98.48% complete, ETA 00:00:31
+# Fork: 2 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+28.121 us/op
+# Warmup Iteration   2: 26.790 us/op
+# Warmup Iteration   3: 24.091 us/op
+# Warmup Iteration   4: 24.306 us/op
+# Warmup Iteration   5: 24.221 us/op
+Iteration   1: 24.278 us/op
+Iteration   2: 24.109 us/op
+Iteration   3: 25.464 us/op
+Iteration   4: 27.871 us/op
+Iteration   5: 24.913 us/op
+Iteration   6: 24.318 us/op
+Iteration   7: 24.085 us/op
+Iteration   8: 24.730 us/op
+Iteration   9: 29.840 us/op
+Iteration  10: 30.910 us/op
+
+# Run progress: 99.24% complete, ETA 00:00:15
+# Fork: 3 of 3
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/arpansharma/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: === PQC Benchmark Suite ===
+Java Version: 26.0.1
+JVM: OpenJDK 64-Bit Server VM (26.0.1)
+OS: Mac OS X 27.0 (aarch64)
+Processors: 8
+Max Memory: 2048 MB
+
+31.943 us/op
+# Warmup Iteration   2: 28.723 us/op
+# Warmup Iteration   3: 27.815 us/op
+# Warmup Iteration   4: 27.702 us/op
+# Warmup Iteration   5: 27.628 us/op
+Iteration   1: 24.391 us/op
+Iteration   2: 24.309 us/op
+Iteration   3: 24.148 us/op
+Iteration   4: 24.185 us/op
+Iteration   5: 25.227 us/op
+Iteration   6: 28.017 us/op
+Iteration   7: 25.488 us/op
+Iteration   8: 28.712 us/op
+Iteration   9: 30.364 us/op
+Iteration  10: 25.518 us/op
+
+
+Result "com.pqc.pqcjavalibrarycomparison.KemBenchmark.keyGen":
+  26.118 ±(99.9%) 1.505 us/op [Average]
+  (min, avg, max) = (24.085, 26.118, 31.010), stdev = 2.253
+  CI (99.9%): [24.613, 27.623] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:34:52
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                               (level)  (provider)  Mode  Cnt      Score       Error  Units
+ClassicalBenchmark.ecdsaP256_keyGen         N/A         N/A  avgt   30     87.789 ±     0.918  us/op
+ClassicalBenchmark.ecdsaP256_sign           N/A         N/A  avgt   30    111.252 ±     0.592  us/op
+ClassicalBenchmark.ecdsaP256_verify         N/A         N/A  avgt   30    349.228 ±     2.323  us/op
+ClassicalBenchmark.rsa2048_keyGen           N/A         N/A  avgt   30  91156.181 ± 12377.130  us/op
+ClassicalBenchmark.rsa2048_sign             N/A         N/A  avgt   30    917.659 ±     6.160  us/op
+ClassicalBenchmark.rsa2048_verify           N/A         N/A  avgt   30     37.885 ±     0.391  us/op
+ClassicalBenchmark.x25519_keyAgreement      N/A         N/A  avgt   30    103.977 ±     0.810  us/op
+ClassicalBenchmark.x25519_keyGen            N/A         N/A  avgt   30    105.937 ±     1.194  us/op
+DsaBenchmark.keyGen                          44          BC  avgt   30     55.707 ±     0.588  us/op
+DsaBenchmark.keyGen                          44         JDK  avgt   30     36.520 ±     0.222  us/op
+DsaBenchmark.keyGen                          65          BC  avgt   30    102.784 ±     0.377  us/op
+DsaBenchmark.keyGen                          65         JDK  avgt   30     74.879 ±     0.159  us/op
+DsaBenchmark.keyGen                          87          BC  avgt   30    146.007 ±     1.054  us/op
+DsaBenchmark.keyGen                          87         JDK  avgt   30     94.039 ±     0.522  us/op
+DsaBenchmark.sign                            44          BC  avgt   30    201.774 ±    59.552  us/op
+DsaBenchmark.sign                            44         JDK  avgt   30    104.888 ±     0.731  us/op
+DsaBenchmark.sign                            65          BC  avgt   30    471.172 ±   181.707  us/op
+DsaBenchmark.sign                            65         JDK  avgt   30    168.587 ±     0.981  us/op
+DsaBenchmark.sign                            87          BC  avgt   30    958.819 ±   358.511  us/op
+DsaBenchmark.sign                            87         JDK  avgt   30    207.976 ±     1.283  us/op
+DsaBenchmark.verify                          44          BC  avgt   30     61.583 ±     0.281  us/op
+DsaBenchmark.verify                          44         JDK  avgt   30     30.489 ±     0.046  us/op
+DsaBenchmark.verify                          65          BC  avgt   30     96.905 ±     0.745  us/op
+DsaBenchmark.verify                          65         JDK  avgt   30     49.874 ±     0.244  us/op
+DsaBenchmark.verify                          87          BC  avgt   30    157.889 ±     1.555  us/op
+DsaBenchmark.verify                          87         JDK  avgt   30     81.562 ±     0.403  us/op
+KemBenchmark.decapsulate                    512          BC  avgt   30     26.900 ±     0.051  us/op
+KemBenchmark.decapsulate                    512         JDK  avgt   30     11.394 ±     0.054  us/op
+KemBenchmark.decapsulate                    768          BC  avgt   30     41.510 ±     0.184  us/op
+KemBenchmark.decapsulate                    768         JDK  avgt   30     17.463 ±     0.073  us/op
+KemBenchmark.decapsulate                   1024          BC  avgt   30     60.139 ±     0.294  us/op
+KemBenchmark.decapsulate                   1024         JDK  avgt   30     25.298 ±     0.175  us/op
+KemBenchmark.encapsulate                    512          BC  avgt   30     21.028 ±     0.176  us/op
+KemBenchmark.encapsulate                    512         JDK  avgt   30      8.787 ±     0.069  us/op
+KemBenchmark.encapsulate                    768          BC  avgt   30     33.547 ±     0.288  us/op
+KemBenchmark.encapsulate                    768         JDK  avgt   30     13.548 ±     0.099  us/op
+KemBenchmark.encapsulate                   1024          BC  avgt   30     49.626 ±     0.157  us/op
+KemBenchmark.encapsulate                   1024         JDK  avgt   30     19.749 ±     0.070  us/op
+KemBenchmark.keyGen                         512          BC  avgt   30     19.758 ±     0.446  us/op
+KemBenchmark.keyGen                         512         JDK  avgt   30      9.831 ±     0.063  us/op
+KemBenchmark.keyGen                         768          BC  avgt   30     31.895 ±     0.206  us/op
+KemBenchmark.keyGen                         768         JDK  avgt   30     16.532 ±     1.270  us/op
+KemBenchmark.keyGen                        1024          BC  avgt   30     67.786 ±    15.099  us/op
+KemBenchmark.keyGen                        1024         JDK  avgt   30     26.118 ±     1.505  us/op
+
+Benchmark result is saved to results/benchmark_result.json
