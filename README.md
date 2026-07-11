@@ -99,20 +99,20 @@ board (speedup = BC / JDK):
 
 | Primitive | Op | BC | JDK | JDK speedup |
 |---|---|--:|--:|--:|
-| ML-KEM-768 | KeyGen | 31.9 | 16.5 | 1.93× |
-| ML-KEM-768 | Encaps | 33.5 | 13.5 | 2.48× |
-| ML-KEM-768 | Decaps | 41.5 | 17.5 | 2.38× |
-| ML-DSA-65 | Sign | 471.2 | 168.6 | 2.79× |
-| ML-DSA-65 | Verify | 96.9 | 49.9 | 1.94× |
-| ML-DSA-87 | Sign | 958.8 | 208.0 | 4.61× |
+| ML-KEM-768 | KeyGen | 33.8 | 15.4 | 2.20× |
+| ML-KEM-768 | Encaps | 31.8 | 13.7 | 2.32× |
+| ML-KEM-768 | Decaps | 41.1 | 18.4 | 2.24× |
+| ML-DSA-65 | Sign | 430.5 | 173.6 | 2.48× |
+| ML-DSA-65 | Verify | 95.7 | 50.0 | 1.91× |
+| ML-DSA-87 | Sign | 552.3 | 240.5 | 2.30× |
 
 **PQC vs. classical** (JDK provider):
 
-- **Key establishment: ML-KEM-768 = 47.5 µs vs X25519 = 209.9 µs → 4.4× faster.**
+- **Key establishment: ML-KEM-768 = 47.4 µs vs X25519 = 207.8 µs → 4.4× faster.**
   Post-quantum key exchange is *cheaper* than the classical primitive here.
-- Signing: ML-DSA-65 is 5.4× faster than RSA-2048, but ~1.5× slower than ECDSA P-256.
+- Signing: ML-DSA-65 is 5.2× faster than RSA-2048, but ~1.6× slower than ECDSA P-256.
 - Verifying: ML-DSA-65 is 7× faster than ECDSA P-256 and comparable to RSA-2048.
-- RSA-2048 key generation (~91 ms) dwarfs everything else.
+- RSA-2048 key generation (~85 ms) dwarfs everything else.
 
 > Numbers are machine-specific (they were collected on an 8-core Apple Silicon
 > laptop). Reproduce on your target hardware before drawing capacity conclusions;

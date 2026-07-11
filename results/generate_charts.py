@@ -63,7 +63,7 @@ def provider_comparison(rows, cls, levels, ops, title, fname):
     x = range(len(labels))
     w = 0.4
     fig, ax = plt.subplots(figsize=(11, 5))
-    ax.bar([i - w / 2 for i in x], bc, w, yerr=bc_err, capsize=3, label="Bouncy Castle 1.79")
+    ax.bar([i - w / 2 for i in x], bc, w, yerr=bc_err, capsize=3, label="Bouncy Castle 1.84")
     ax.bar([i + w / 2 for i in x], jdk, w, yerr=jdk_err, capsize=3, label="JDK 26 native")
     ax.set_xticks(list(x))
     ax.set_xticklabels(labels, fontsize=8)
@@ -73,8 +73,10 @@ def provider_comparison(rows, cls, levels, ops, title, fname):
     fig.tight_layout()
     out = os.path.join(FIG_DIR, fname)
     fig.savefig(out, dpi=150)
+    pdf_out = os.path.splitext(out)[0] + ".pdf"
+    fig.savefig(pdf_out)
     plt.close(fig)
-    print(f"wrote {out}")
+    print(f"wrote {out} and {pdf_out}")
 
 
 def pqc_vs_classical(rows, fname):
@@ -104,8 +106,10 @@ def pqc_vs_classical(rows, fname):
     fig.tight_layout()
     out = os.path.join(FIG_DIR, fname)
     fig.savefig(out, dpi=150)
+    pdf_out = os.path.splitext(out)[0] + ".pdf"
+    fig.savefig(pdf_out)
     plt.close(fig)
-    print(f"wrote {out}")
+    print(f"wrote {out} and {pdf_out}")
 
 
 def kem_vs_x25519(rows, fname):
@@ -134,8 +138,10 @@ def kem_vs_x25519(rows, fname):
     fig.tight_layout()
     out = os.path.join(FIG_DIR, fname)
     fig.savefig(out, dpi=150)
+    pdf_out = os.path.splitext(out)[0] + ".pdf"
+    fig.savefig(pdf_out)
     plt.close(fig)
-    print(f"wrote {out}")
+    print(f"wrote {out} and {pdf_out}")
 
 
 def main():

@@ -99,7 +99,7 @@ def write_markdown(rows):
     L = []
     L.append("# PQC Benchmark Results (Java, JDK 26)\n")
     L.append("All times in microseconds per operation (µs/op); lower is better. "
-             "`BC` = Bouncy Castle 1.79, `JDK` = built-in providers (SunJCE ML-KEM, SUN ML-DSA).\n")
+             "`BC` = Bouncy Castle 1.84, `JDK` = built-in providers (SunJCE ML-KEM, SUN ML-DSA).\n")
 
     L.append("\n## Bouncy Castle vs. JDK native (speedup = BC / JDK)\n")
     L.append("| Primitive | Operation | BC (µs) | JDK (µs) | JDK speedup |")
