@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "From Primitives to Protocol: Measuring Post-Quantum Cryptography Performance in the Java Ecosystem"
+authors:
+  - family-names: Sharma
+    given-names: Arpan
+    email: arpansharma073@gmail.com
+version: 1.0.0
+date-released: 2026-07-11
+repository-code: "https://github.com/Arpan0995/PQC-Java-Library-Comparison"
+keywords:
+  - post-quantum cryptography
+  - ML-KEM
+  - ML-DSA
+  - Bouncy Castle
+  - JMH
+  - Java
